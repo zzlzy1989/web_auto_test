@@ -1,0 +1,1 @@
+这是一个web自动化项目，使用selenium和python语言，通过jenkins持续集成，以达到自动化构建项目，自动测试项目的结果。# web_auto_test
