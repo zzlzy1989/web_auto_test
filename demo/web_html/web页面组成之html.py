@@ -16,4 +16,26 @@ selenium代码库
     name
 javascript DOM 对象，如何进行交互
 
+
+selenium 环境搭建以及原理解释
+
+selenium里面的webdriver会直接控制浏览器，通过不同的浏览器的驱动，然后对目标进行代码层的操作；
+
 """
+
+from selenium import webdriver
+from time import sleep
+
+
+
+
+driver = webdriver.Chrome()
+url = "https://test-w1.sancaijia.net/?fileName=#/login"
+driver.get(url)
+driver.find_element_by_xpath('//input[@name="username"]').send_keys("17792303803")
+driver.find_element_by_xpath('//input[@name="password"]').send_keys("Qwe@1234")
+driver.find_element_by_xpath('//button[@type="button"]').click()
+
+sleep(3)
+driver.find_element_by_xpath('//span[text()="房源"]/parent::li/parent::a').click()
+driver.quit()

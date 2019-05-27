@@ -5,6 +5,17 @@
     <title>Python之web元素</title>
 </head>
 <body>
+    <script type="text/javascript">
+
+        var a=document.getElementById("phone");
+        a.onchange = function(){
+            var value = a.value
+            if(value.length == 11){alert("长度为11位......");}
+            else{alert("长度大于11位！");}
+
+        }
+
+    </script>
     <!-- 标签元素 -->
     <h5 style="color:red;" >Python之web自动化学习</h5>
 
@@ -16,7 +27,7 @@
     <!-- form 表单 -->
     <form>
         <!-- 输入框元素 readonly(只读，不可用状态，disable)-->
-        <input type="text" readonly/><br>
+        <input type="text" id="phone"/><br>
 
         <!-- 单选框的选择 checked -->
         你的性别:
@@ -35,7 +46,7 @@
         <input type="file"><br>
 
         <!-- 按钮 -->
-        <input type="button" value="python自动化" disabled>
+        <input type="button" value="python自动化" >
     </form>
     <br>
     <!-- iframe 内嵌页面-->
