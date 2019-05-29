@@ -4,7 +4,6 @@
     这是一个基于Python的Selenium WebDriver项目。
     使用selenium和python语言，通过jenkins持续集成，以达到自动化构建项目，自动测试项目的结果。
 
-
 二、项目中使用的技术简介
 
     1、安装Python和Selenium包
@@ -98,6 +97,111 @@
         5）值得一提的是class定位：class属性是用来关联CSS中定义的属性的；
             通过对元素ID、name、class属性来查找元素是最为普遍和快捷的方法；
             也可以增加一个测试用例断言元素的可用性：
+
+
+
+
+附件 基础知识
+
+    一、元素操作
+
+    （一）、xpath复杂元素定位
+
+        # 1、//标签名[@属性名称=属性值]   * 匹配所有
+        # 2、逻辑运算 and or  //标签名[@属性名称=属性值 and 属性名称=属性值]
+        # 3、元素的文本内容  //标签名[text()="元素的文本内容"]  # 文本内容完全匹配
+        # 4、部分匹配：文本内容/属性值   contains(text()/@属性,部分值)
+        #  //标签名[contains(text(),"部分文本内容")]  # 太长了
+        #  //标签名[contains(@属性,"部分属性值")]   # id(不变动+变动) # class有多个。
+        # 5、当你不能通过自己的属性唯一找到的时候，就要利用层级关系 。
+        # 5.1、层级定位  第一种方式
+        #   后一条件，是在前一个得到的结果之内去搜索。//条件1//条件2.....
+        #  //div[@id="u1"]//a[@name="tj_login"]
+        # 5.2 层级定位 - 轴定位    # 表达式   /轴定位名称::标签名[属性表达]
+            # 兄弟姐妹  -  直系的   有比你大的，有比你小的。
+            # preceding-sibling: 哥哥姐姐
+            # following-sibling：弟弟妹妹
+            # //a[@name="tj_trvideo"]/following-sibling::a[@name="tj_login"]
+            # //a[@name="tj_settingicon"]/preceding-sibling::a[@name="tj_login"]
+            # 爸爸：parent   祖先：ancestor
+            # //a[@name="tj_trtieba"]/parent::div/a[@name="tj_login"]
+            # //a[text()="百度首页"]/parent::div/following-sibling::div//a[@name="tj_login"]
+
+    （二）、等待-三种等待方式
+
+        1、强制等待
+            sleep(秒)
+        2、隐性等待
+            implicitly_wait(秒)
+            设置最长等待时间，在这个时间内加载完成，则执行下一步。
+            整个driver的会话周期内，设置一次即可，全局都可以使用。
+        3、显性等待
+            明确等到某个条件满足之后，再去执行下一步操作。
+            程序每隔XX秒看一眼，如果条件成立了，则执行下一步，否则继续等待，知道超过设置的最长时间，
+            抛出TimeoutException.--
+
+            WebDriverWait类，显性等待类；
+            WebDriverwait(dirver,等待市场，轮询周期).until/until_not()
+
+            expected_conditions模块：提供一系列期望发生的条件。
+            presence_of_element_located:元素存在
+            visibility_of_element_located:元素可见
+            element_to_be_clickable:元素可点击
+            ps:这个类有很判断方法。
+
+        例如：
+            1、当你的操作带来了页面的变化，请一定要等待
+            time.sleep(5)#傻等
+            2、隐形等待-智能等待：如果你10秒出现了，我就开始下一步操作。设置上限：30秒 超时TimeoutException
+            3、显性等待-智能等待：明确的条件（元素可见，窗口存在）。等待+条件
+            （如果你10秒出现了，我就开始下一步操作。）
+                from selenium.webdriver.support.wait import WebDriverWait
+                from selenium.webdriver.support import expected_conditions as EC
+                from selenium.webdriver.common.by import By
+            元素存在（html里面，能找到）；
+            元素可见（存在并且可见-看得见大小-可见才可操作）；
+            元素可用（可见之后，才有可用的可能性。只读/不可点击-不可用）
+            等待条件表达
+            locater = (定位类型，定位表达式)
+                locater = (By.ID,'TANGRAM__PSP_10__footerULoginBtn')
+            EC.visibility_of_element_located(locater) #条件
+            等待元素可见
+                WebDriverWait(driver,30).until(EC.visibility_of_element_located(locater))
+            使用sleep短暂等待，辅助- 0.5秒
+                time.sleep(0.5)
+            点击元素
+                driver.find_element_by_id('TANGRAM__PSP_10__footerULoginBtn').click()
+
+    （三）、打开新窗口部分核心代码
+        1、
+            #step1:获取窗口数
+            handles = driver.window_handles # >>> 只有一个 窗口
+            # step2:打开新窗口的操作
+            driver.find_element(*locator).click()   #本操作带来新窗口的出现  >>> 2个窗口
+
+            ############ 第二种 ###########
+            # step3:确认新窗口出现了，我再去操作他，等待新窗口出现
+            # EC.new_window_is_opened # 比窗口总数的大小  # 传一个窗口的总数
+            WebDriverWait(driver,10).until(EC.new_window_is_opened(handles))   #2>1 确认新窗口出现
+            # step4:再次获取 窗口的handles
+            handles = driver.window_handles
+            # step5:切换 新的窗口
+            driver.switch_to.window(handles[-1])
+        2、
+            driver.find_element(*locator).click()   #本操作带来新窗口的出现
+            # 打开新的窗口
+            #   1、获取所有的窗口
+            handles = driver.window_handles
+            print(driver.window_handles)
+            #   当前窗口的handle
+            print(driver.current_window_handle)
+            #   2、切换新的窗口
+            driver.switch_to.window(handles[-1])
+            print("切换之后的窗口为：",driver.current_window_handle)
+
+
+
+
 
 
 
