@@ -32,7 +32,6 @@ driver.find_element_by_xpath('//div[@id="u1"]//a[@name="tj_login"]').click()
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-
 # 元素存在（html里面，能找到）；
 # 元素可见（存在并且可见-看得见大小-可见才可操作）；
 # 元素可用（可见之后，才有可用的可能性。只读/不可点击-不可用）
