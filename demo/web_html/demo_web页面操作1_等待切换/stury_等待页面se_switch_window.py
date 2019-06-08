@@ -12,23 +12,34 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import time
 
+
+"""
+    implicitly_wait():隐式等待
+    当使用了隐士等待执行测试的时候，如果 WebDriver没有在 DOM中找到元素，将继续等待，超出设定时间后则抛出找不到元素的异常
+    换句话说，当查找元素或元素并没有立即出现的时候，隐式等待将等待一段时间再查找 DOM，默认的时间是0
+    一旦设置了隐式等待，则它存在整个 WebDriver 对象实例的声明周期中，隐式的等到会让一个正常响应的应用的测试变慢，
+    它将会在寻找每个元素的时候都进行等待，这样会增加整个测试执行的时间。
+"""
+
 # 浏览器会话的开始
 driver = webdriver.Chrome()
+driver.get("http://www.baidu.com")  # 静态页面加载完成
 
 # 设置全局等待时间
 driver.implicitly_wait(30)
 
-driver.get("http://www.baidu.com")  # 静态页面加载完成
-
 # 输入柠檬班并点击百度一下
-# driver.find_element_by_id("kw").clear()  # 清除文本
+driver.find_element_by_id("kw").clear()  # 清除文本
 driver.find_element_by_id("kw").send_keys("柠檬班")
 driver.find_element_by_id("su").click()
 # 等待
 locator = (By.XPATH,'//a[text()="_腾讯课堂"]')
 WebDriverWait(driver,20).until(EC.visibility_of_element_located(locator))
-# 点周柠檬班-腾讯课堂
-# driver.find_element_by_xpath('//a[text()="_腾讯课堂"]').click()
+
+# 柠檬班-腾讯课堂
+driver.find_element_by_xpath('//a[text()="_腾讯课堂"]').click()
+
+
 # 方式二
 # step1: 获取窗口数
 handles = driver.window_handles   # 只有1个窗口。

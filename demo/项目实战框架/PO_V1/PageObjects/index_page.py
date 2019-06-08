@@ -19,8 +19,7 @@ class IndexPage:
 
     def check_nick_name_exists(self):
         """
-
-        :return: 存在返回True 不存在返回False
+            :return: 存在返回True 不存在返回False
         """
         WebDriverWait(self.driver,20).until(
             EC.visibility_of_element_located(By.XPATH,'//a[text()="关于我们"]'))
@@ -30,5 +29,6 @@ class IndexPage:
         try:
             self.driver.find_element_by_xpath('//a[text()="关于我们"]')
             return True
+
         except:
             return False

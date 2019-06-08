@@ -35,7 +35,6 @@ class TestLogin(unittest.TestCase):
         # URL跳转
         self.assertEqual(self.driver.current_url,"http://120.78.128.25:8765/index/index.html")
 
-
         pass
 
     # 登录失败 异常用例-无密码

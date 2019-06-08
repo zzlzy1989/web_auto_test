@@ -55,15 +55,15 @@ driver.find_element_by_xpath('//a[text()="高级搜索"]').click()
 s = Select(driver.find_element_by_xpath('//select[@name="ft"]'))
 
 # 2、选择下来列表的值
-# 2.1 value属性值
-time.sleep(2)
-s.select_by_value("doc")
+# 2.1 value属性值time.sleep(2)
+# s.select_by_value("doc")
+#
+# time.sleep(2)
+# s.select_by_index(1)
+#
+# time.sleep(2)
+# s.select_by_visible_text("所有格式")
 
-time.sleep(2)
-s.select_by_index(1)
-
-time.sleep(2)
-s.select_by_visible_text("所有格式")
 
 #总结：
 # iframe 和 alert弹出框

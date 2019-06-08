@@ -30,10 +30,10 @@ driver.find_element_by_xpath('//div[@id="u1"]//a[@name="tj_login"]').click()
 # 3、显性等待-智能等待：明确的条件（元素可见，窗口存在）。等待+条件
 # （如果你10秒出现了，我就开始下一步操作。）
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as EC    #预期的条件
 from selenium.webdriver.common.by import By
 # 元素存在（html里面，能找到）；
-# 元素可见（存在并且可见-看得见大小-可见才可操作）；
+# 元素可见（存在并且可见-看得见大小-可见才可操作）；。
 # 元素可用（可见之后，才有可用的可能性。只读/不可点击-不可用）
 
 
