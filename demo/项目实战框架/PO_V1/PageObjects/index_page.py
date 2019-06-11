@@ -32,3 +32,4 @@ class IndexPage:
 
         except:
             return False
+
