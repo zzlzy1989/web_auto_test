@@ -14,11 +14,12 @@ from selenium import webdriver
 from demo.项目实战框架.PO_V1.PageObjects.login_page import LoginPage
 from demo.项目实战框架.PO_V1.PageObjects.index_page import IndexPage
 from demo.项目实战框架.PO_V1.TestDatas import login_datas as ld
-from demo.项目实战框架.PO_V1.TestDatas import Common_data as cd
+from demo.项目实战框架.PO_V1.TestDatas import common_data as cd
 """
     登录测试用例
     用例三部曲：前置、步骤、断言
 """
+@ddt.ddt
 class TestLogin(unittest.TestCase):
 
     @classmethod
@@ -27,6 +28,7 @@ class TestLogin(unittest.TestCase):
         #前置 - 打开网页，启动浏览器
         cls.driver = webdriver.Chrome()
         cls.driver.get(cd.base_url+"/index/login.html")
+        cls.driver.maximize_window()
 
     @classmethod
     def tearDownClass(cls):
@@ -42,7 +44,7 @@ class TestLogin(unittest.TestCase):
         # 断言 - 页面是否存在  我的账户   元素
         self.assertTrue(IndexPage(self.driver).check_nick_name_exists())
         # URL跳转
-        self.assertEqual(self.driver.current_url,cd.base_url+"/index/index.html")
+        self.assertEqual(self.driver.current_url,ld.success_data["check"])
 
 
     @ddt.data(*ld.wrong_datas)

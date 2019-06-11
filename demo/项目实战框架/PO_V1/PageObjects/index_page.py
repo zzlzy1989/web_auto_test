@@ -22,12 +22,12 @@ class IndexPage:
             :return: 存在返回True 不存在返回False
         """
         WebDriverWait(self.driver,20).until(
-            EC.visibility_of_element_located(By.XPATH,'//a[text()="关于我们"]'))
+            EC.visibility_of_element_located((By.XPATH,'//a[text()="关于我们"]')))
 
         time.sleep(0.5)
 
         try:
-            self.driver.find_element_by_xpath('//a[text()="关于我们"]')
+            self.driver.find_element_by_xpath('//a[@href="/Member/index.html"]')
             return True
 
         except:
