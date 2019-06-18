@@ -9,8 +9,10 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from demo.项目实战框架.PO_V1.PageLocators.login_page_locator import LoginPageLocator as loc
+from demo.项目实战框架.PO_V1.Common.basepage import BasePage
+
 # 一个用例，一次浏览器的打开和结束
-class LoginPage:
+class LoginPage(BasePage):
 
     # 属性
     def __init__(self,driver):
@@ -26,6 +28,12 @@ class LoginPage:
         self.driver.find_element(*loc.user_loc).send_keys(user)
         self.driver.find_element(*loc.passwd_loc).send_keys(passwd)
         self.driver.find_element(*loc.login_button_loc).click()
+
+    # 登录功能
+    def login_2(self, user, passwd):
+        self.input_text(loc.user_loc,user,"登录页面_输入用户名")
+        self.input_text(loc.passwd_loc,passwd,"登录页面_输入密码")
+        self.click_element(loc.login_button_loc,"登录页面_点击登录按钮")
 
     # 获取表单区域的错误文本信息
     def get_error_msg_from_loginForm(self):

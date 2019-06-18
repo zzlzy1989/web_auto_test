@@ -6,15 +6,15 @@
 # @File : test_login.py 
 # @Software: PyCharm
 
-
 import unittest
 import ddt
 from selenium import webdriver
-
 from demo.项目实战框架.PO_V1.PageObjects.login_page import LoginPage
 from demo.项目实战框架.PO_V1.PageObjects.index_page import IndexPage
 from demo.项目实战框架.PO_V1.TestDatas import login_datas as ld
-from demo.项目实战框架.PO_V1.TestDatas import common_data as cd
+from demo.项目实战框架.PO_V1.TestDatas import Comm_Datas as cd
+
+from demo.项目实战框架.PO_V1.Common import basepage
 """
     登录测试用例
     用例三部曲：前置、步骤、断言
@@ -24,10 +24,9 @@ class TestLogin(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-
-        #前置 - 打开网页，启动浏览器
+        # 前置 - 打开网页，启动浏览器
         cls.driver = webdriver.Chrome()
-        cls.driver.get(cd.base_url+"/index/login.html")
+        cls.driver.get("{}/index/login.html".format(cd.base_url))
         cls.driver.maximize_window()
 
     @classmethod

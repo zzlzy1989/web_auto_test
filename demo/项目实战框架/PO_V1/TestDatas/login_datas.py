@@ -5,14 +5,14 @@
 # @Site :  
 # @File : login_datas.py 
 # @Software: PyCharm
-from demo.项目实战框架.PO_V1.TestDatas import common_data as cd
+from demo.项目实战框架.PO_V1.TestDatas import Comm_Datas as cd
 
 # 正常登录
 success_data={"user":"18684720553",
                "passwd":"python",
                "check":"{}/Index/index".format(cd.base_url)}
 
-
+# 用户名或密码为空，错误
 wrong_datas = [
     {"user":"18684720553","passwd":"","check":"请输入密码"},
     {"user":"","passwd":"python","check":"请输入手机号"},

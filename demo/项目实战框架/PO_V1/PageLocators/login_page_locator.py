@@ -14,7 +14,7 @@ class LoginPageLocator:
     # 用户名输入框
     user_loc = (By.XPATH,'//input[@name="phone"]')
     # 密码输入框
-    passwd_loc = (By.XPATH,'// input[ @ name = "password"]')
+    passwd_loc = (By.XPATH,'//input[@name="password"]')
     # 登录按钮
     login_button_loc = (By.XPATH,'//button')
     # 提示框 - 登录表单区域
