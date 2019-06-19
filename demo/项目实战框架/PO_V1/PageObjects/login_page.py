@@ -9,33 +9,27 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from demo.项目实战框架.PO_V1.PageLocators.login_page_locator import LoginPageLocator as loc
+from demo.项目实战框架.PO_V1.Common.basepage import BasePage
 # 一个用例，一次浏览器的打开和结束
-class LoginPage:
+class LoginPage(BasePage):
 
-    # 属性
-    def __init__(self,driver):
-        self.driver = driver
-        # self.driver = webdriver.Chrome()
-        # self.driver.get("http://120.78.128.25:8765/index/login.html")
-
-    # 登录功能
+    # 登陆功能
     def login(self,user,passwd):
-        #等待
-        WebDriverWait(self.driver,20).until(EC.visibility_of_element_located(loc.user_loc))
-        # 输入用户名、输入密码、点击登录
-        self.driver.find_element(*loc.user_loc).send_keys(user)
-        self.driver.find_element(*loc.passwd_loc).send_keys(passwd)
-        self.driver.find_element(*loc.login_button_loc).click()
+        self.input_text(loc.user_loc,user,"登陆页面_输入用户名")
+        self.input_text(loc.passwd_loc,passwd,"登陆页面_输入密码")
+        self.click_element(loc.login_button_loc,"登陆页面_点击登陆按钮")
 
-    # 获取表单区域的错误文本信息
+    # //div[@class="form-error-info"]
+    # 获取表单区域的错误信息
     def get_error_msg_from_loginForm(self):
-        WebDriverWait(self.driver,20).until(EC.visibility_of_element_located(loc.error_notify_from_loginForm))
-        return self.driver.find_element(*loc.error_notify_from_loginForm).text
+        self.wait_eleVisible(loc.error_notify_from_loginForm,"登陆页面_表单区域错误信息")
+        return self.get_element_text(loc.error_notify_from_loginForm,"登陆页面_表单区域错误信息")
 
-    # 获取页面中间的错误文本信息
+    # 获取页面中间的错误信息
     def get_error_msg_from_pageCenter(self):
-        WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located(loc.error_notify_from_pageCenter))
-        return self.driver.find_element(*loc.error_notify_from_pageCenter).text
+        self.wait_eleVisible(loc.error_notify_from_pageCenter,"登陆页面_页面中间错误信息")
+        return self.get_element_text(loc.error_notify_from_pageCenter,"登陆页面_页面中间错误信息")
+
 
 
 

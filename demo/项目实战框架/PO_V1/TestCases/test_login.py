@@ -10,11 +10,11 @@
 import unittest
 import ddt
 from selenium import webdriver
-
+import logging
 from demo.项目实战框架.PO_V1.PageObjects.login_page import LoginPage
 from demo.项目实战框架.PO_V1.PageObjects.index_page import IndexPage
 from demo.项目实战框架.PO_V1.TestDatas import login_datas as ld
-from demo.项目实战框架.PO_V1.TestDatas import common_data as cd
+from demo.项目实战框架.PO_V1.TestDatas import Common_Datas as cd
 """
     登录测试用例
     用例三部曲：前置、步骤、断言

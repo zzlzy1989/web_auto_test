@@ -5,7 +5,7 @@
 # @Site :  
 # @File : login_datas.py 
 # @Software: PyCharm
-from demo.项目实战框架.PO_V1.TestDatas import common_data as cd
+from demo.项目实战框架.PO_V1.TestDatas import Common_Datas as cd
 
 # 正常登录
 success_data={"user":"18684720553",
