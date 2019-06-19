@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>python15-学习网页</title>
+</head>
+<body>
+    <!-- 标题元素  -->
+    <h1 style="color:red;">python全栈自动化测试第15期</h1>
+
+    <!-- 链接元素  -->
+    <a href="http://www.baidu.com" name="class_title">点我，有惊喜！！</a>
+    <a href="http://www.taobao.com">点我，去剁手！！</a>
+
+    <br>
+    <!--  form表单  -->
+    <form id="form">
+        <!--  输入框元素 readonly(不可用状态 disable) -->
+        <input type="text" id="phone"/> <br>
+        <!--  单选框元素  checked-->
+        你的性别：
+        <input type="radio" name="sex" checked/>女
+        <input type="radio" name="sex"/>男
+        <input type="radio" name="sex"/>未知
+        <br>
+
+        <!--  复选框元素  checked-->
+        你喜欢的动漫：
+        <input type="checkbox">火影忍者
+        <input type="checkbox" checked>魔道祖师
+        <input type="checkbox">秦时明月
+        <input type="checkbox">海贼王
+        <input type="checkbox">斗破苍穹
+        <br>
+        <!--  文件上传元素  -->
+        <input type="file">
+        <br>
+        <!--  按钮元素  disabled - 按钮不可用-->
+        <input id="press" type="button" value="滴滴，上课卡">
+    </form>
+    <br>
+    <!--  iframe元素 内联框架  -->
+    <iframe src="http://www.baidu.com"></iframe>
+    <br>
+    <!--  img元素 图片  -->
+    <img id="my_image" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_86d58ae1.png">
+    <br>
+    <!--  下拉元素 select/option  -->
+    你最近最中意的爱好：
+    <select id="select">
+        <option>打游戏-吃鸡-王者荣耀</option>
+        <option>柠檬班-学习-升职加薪</option>
+        <option>吃吃吃-小龙虾-烤肉-丢丢</option>
+    </select>
+
+    <!--  块级元素 div  -->
+    <div id="study">
+        <p id="py15">大家好，我是柠檬班第15期！开始学习WEB自动化了！</p>
+    </div>
+
+    <script type="text/javascript">
+        <!--a = document.getElementById("py15").innerHTML-->
+        <!--document.write(a)-->
+        var ele = document.getElementById("press");
+        ele.onclick=function(){alert("滴滴，上课啦！")}
+
+    </script>
+</body>
+</html>

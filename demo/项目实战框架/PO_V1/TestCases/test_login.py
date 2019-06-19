@@ -29,6 +29,7 @@ class TestLogin(unittest.TestCase):
         cls.driver = webdriver.Chrome()
         cls.driver.get(cd.base_url+"/index/login.html")
         cls.driver.maximize_window()
+        cls.driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
 
     @classmethod
     def tearDownClass(cls):
@@ -45,6 +46,7 @@ class TestLogin(unittest.TestCase):
         self.assertTrue(IndexPage(self.driver).check_nick_name_exists())
         # URL跳转
         self.assertEqual(self.driver.current_url,ld.success_data["check"])
+
 
 
     @ddt.data(*ld.wrong_datas)
