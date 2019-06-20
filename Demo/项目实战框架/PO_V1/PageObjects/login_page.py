@@ -8,8 +8,8 @@
 
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from demo.项目实战框架.PO_V1.PageLocators.login_page_locator import LoginPageLocator as loc
-from demo.项目实战框架.PO_V1.Common.basepage import BasePage
+from Demo.项目实战框架.PO_V1.PageLocators.login_page_locator import LoginPageLocator as loc
+from Demo.项目实战框架.PO_V1.Common.basepage import BasePage
 # 一个用例，一次浏览器的打开和结束
 class LoginPage(BasePage):
 

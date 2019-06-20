@@ -8,7 +8,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 import os
 import time
-from demo.项目实战框架.PO_V1.Common import dir_config
+from Demo.项目实战框架.PO_V1.Common import dir_config
 
 fmt = " %(asctime)s  %(levelname)s %(filename)s %(funcName)s [ line:%(lineno)d ] %(message)s"
 datefmt = '%a, %d %b %Y %H:%M:%S'
