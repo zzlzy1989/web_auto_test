@@ -10,12 +10,10 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import time
+from Demo.项目实战框架.PO_V1.PageLocators.indexPage_locator import IndexPageLocator as loc
+from Demo.项目实战框架.PO_V1.Common.basepage import BasePage
 
-class IndexPage:
-
-    def __init__(self,driver):
-        self.driver = driver
-
+class IndexPage(BasePage):
 
     def check_nick_name_exists(self):
         """
@@ -33,3 +31,7 @@ class IndexPage:
         except:
             return False
 
+    # 点击投标按钮
+
+    def click_invest_button(self):
+        self.click_element(loc.bid_button, "首页_点击第一个抢投标按钮")
