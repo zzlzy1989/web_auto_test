@@ -1,17 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4874073-952b-4512-93fa-a3758c9e6683" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/web_html/学习元素定位.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/web_html/学习元素定位webelement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/web_html/学习打开新标签页.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/web_html/学习等待-三种等待方式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/web_html/学习等待页面se_switch_window.py" afterDir="false" />
+    <list default="true" id="a4874073-952b-4512-93fa-a3758c9e6683" name="Default Changelist" comment="commit study 框架">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/web_html/study_html.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/web_html/学习html页面组成元素.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/web_html/webelement.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/web_html/web页面组成之html.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/web_html/学习熟悉html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/web_html/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/home_work/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/home_work/home_work_0527.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/home_work/home_work_0530.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/class_web_20190530/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/class_web_20190530/lesson1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/class_web_20190530/mouse_ope.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/class_web_20190530/popup_ope.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/class_web_20190530/switch_to_iframe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/class_web_20190601/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/web_html/class_web_20190601/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/class_web_20190601/js_日期控件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/class_web_20190601/js_滚动条.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/class_web_20190601/win32api_win32gui_win32con.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/class_web_20190601/上传文件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/class_web_20190601/按键操作.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_html/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_html/lesson_html.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/web_html/demo_html/lesson_html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_html/stury_html页面组成元素.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_html/stury_熟悉html.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/study_se_switch_iframe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/study_弹框_popup_up.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/stury_wait_三种等待方式.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/stury_打开新标签页.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/stury_等待页面se_switch_window.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_web页面操作2_鼠标键盘下拉列表JS操作/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_web页面操作2_鼠标键盘下拉列表JS操作/study_mouse_ope.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_元素定位/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_元素定位/stury_元素定位.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/demo_元素定位/stury_元素定位webelement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/web_html/总结+自动化.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/Common/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/Common/basepage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/Common/dir_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/Common/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageLocators/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageLocators/bidPage_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageLocators/bidPage_locator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageLocators/indexPage_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageLocators/indexPage_locator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageLocators/login_page_locator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageLocators/userPage_locator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageObjects/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageObjects/bid_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageObjects/index_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageObjects/login_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageObjects/user_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageObjects/user_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestCases/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestCases/test_invest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestCases/test_login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestDatas/Common_Datas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestDatas/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestDatas/login_datas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/PO_V1/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/自动化应用场景和用例设计/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/自动化应用场景和用例设计/study_自动化应用场景用例设计1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/项目实战框架/自动化应用场景和用例设计/study_自动化应用场景用例设计2.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,29 +72,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1659">
-              <caret line="105" column="10" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/web_html/学习打开新标签页.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="61" column="47" lean-forward="true" selection-start-line="51" selection-end-line="61" selection-end-column="47" />
-              <folding>
-                <element signature="e#156#186#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,30 +82,86 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\PycharmProjects\web_auto_test\demo\web_html</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/demo/web_html/学习等待-三种等待方式.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/TestCases/test_login.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Demo/home_work/home_work_0530.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Demo/web_html/demo_web页面操作1_等待切换/stury_wait_三种等待方式.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Demo/web_html/demo_web页面操作2_鼠标键盘下拉列表JS操作/study_mouse_ope.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Demo/web_html/demo_web页面操作1_等待切换/study_se_switch_iframe.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/Common/logger.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/web_html/demo.html" />
         <option value="$PROJECT_DIR$/demo/demo.html" />
         <option value="$PROJECT_DIR$/demo/web_html/study_html.html" />
         <option value="$PROJECT_DIR$/demo/web_html/web页面组成之html.py" />
         <option value="$PROJECT_DIR$/demo/web_html/webelement.py" />
         <option value="$PROJECT_DIR$/demo/web_html/学习等待-三种等待方式.py" />
         <option value="$PROJECT_DIR$/demo/web_html/学习打开新标签页.py" />
+        <option value="$PROJECT_DIR$/demo/web_html/study_se_switch_iframe.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战+框架/自动化应用场景和用例设计/README.md.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/demo/项目实战+框架/自动化应用场景和用例设计/study_自动化应用场景用例设计.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战+框架/自动化应用场景和用例设计/study_自动化应用场景用例设计2.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战+框架/自动化应用场景和用例设计/study_自动化应用场景用例设计1.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战+框架/PO_V1/PageObjects/login_page.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战+框架/PO_V1/TestCases/test_login.py" />
+        <option value="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/study_弹框_popip_up.py" />
+        <option value="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/study_弹框_popup_up.py" />
+        <option value="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/study_se_switch_iframe.py" />
+        <option value="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/study_mouse_ope.py" />
+        <option value="$PROJECT_DIR$/demo/web_html/demo_web页面操作2_鼠标键盘下拉列表JS操作/study_mouse_ope.py" />
+        <option value="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/stury_等待页面se_switch_window.py" />
+        <option value="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/stury_wait_三种等待方式.py" />
+        <option value="$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/common/action_chains.py" />
+        <option value="$PROJECT_DIR$/demo/home_work/home_work_0527.py" />
+        <option value="$PROJECT_DIR$/demo/home_work/home_work_0528.py" />
+        <option value="$PROJECT_DIR$/demo/home_work/home_work_0530.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestDatas/Common_data.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageLocaters/login_page_locater.py" />
+        <option value="$PROJECT_DIR$/PO_V1/TestCases/test_login.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageObjects/index_page.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestDatas/test_invest.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageObjects/bid_page.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageLocators/bidPage_locator.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageLocators/login_page_locator.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageLocators/indexPage_locator.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageObjects/user_page.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestCases/test_invest.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/main.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/Common/dir_config.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestDatas/login_datas.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/Common/logger.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/Common/basepage.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageObjects/login_page.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestCases/test_login.py" />
+        <option value="$PROJECT_DIR$/demo/web_html/class_web_20190601/win32api_win32gui_win32con.py" />
+        <option value="$PROJECT_DIR$/demo/web_html/class_web_20190601/js_日期控件.py" />
+        <option value="$PROJECT_DIR$/demo/web_html/class_web_20190601/js_滚动条.py" />
+        <option value="$PROJECT_DIR$/demo/web_html/class_web_20190601/上传文件.py" />
+        <option value="$PROJECT_DIR$/demo/web_html/class_web_20190601/按键操作.py" />
+        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/README.md" />
+        <option value="$PROJECT_DIR$/demo/web_html/总结+自动化.py" />
+        <option value="$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageLocators/indexPage_locator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="861" />
-    <option name="width" value="1057" />
+    <option name="x" value="422" />
+    <option name="width" value="1498" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -86,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,34 +183,80 @@
             <path>
               <item name="web_auto_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_auto_test" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web_auto_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_auto_test" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="web_html" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="项目实战框架" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_auto_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_auto_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="项目实战框架" type="462c0819:PsiDirectoryNode" />
+              <item name="PO_V1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_auto_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_auto_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="项目实战框架" type="462c0819:PsiDirectoryNode" />
+              <item name="PO_V1" type="462c0819:PsiDirectoryNode" />
+              <item name="PageLocators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_auto_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_auto_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="项目实战框架" type="462c0819:PsiDirectoryNode" />
+              <item name="PO_V1" type="462c0819:PsiDirectoryNode" />
+              <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_auto_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_auto_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="项目实战框架" type="462c0819:PsiDirectoryNode" />
+              <item name="PO_V1" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_auto_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_auto_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="项目实战框架" type="462c0819:PsiDirectoryNode" />
+              <item name="PO_V1" type="462c0819:PsiDirectoryNode" />
+              <item name="TestDatas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/web_html" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.EditorConfig" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\PycharmProjects\web_auto_test\demo\web_html" />
+      <recent name="E:\PycharmProjects\web_auto_test\demo\项目实战框架\PO_V1" />
+      <recent name="E:\PycharmProjects\web_auto_test\demo\项目实战框架\PO_V1\TestCases" />
+      <recent name="E:\PycharmProjects\web_auto_test\demo\项目实战框架\PO_V1\PageObjects" />
+      <recent name="E:\PycharmProjects\web_auto_test\demo\项目实战框架\PO_V1\PageLocators" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\PycharmProjects\web_auto_test\demo\web_html" />
-      <recent name="E:\PycharmProjects\web_auto_test\demo" />
+      <recent name="E:\PycharmProjects\web_auto_test\demo\项目实战框架\PO_V1\TestCases" />
+      <recent name="E:\PycharmProjects\web_auto_test" />
+      <recent name="E:\PycharmProjects\web_auto_test\demo\web_html\demo_web页面操作2_鼠标键盘下拉列表JS操作" />
+      <recent name="E:\PycharmProjects\web_auto_test\demo\web_html\demo_等待_切换" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -137,56 +270,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager" selected="Python.学习打开新标签页">
-    <configuration name="学习打开新标签页" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="web_auto_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo/web_html" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/web_html/学习打开新标签页.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="web页面组成之html" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="web_auto_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo/web_html" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\PycharmProjects\web_auto_test\demo\web_html\学习熟悉html.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.学习打开新标签页" />
-        <item itemvalue="Python.web页面组成之html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -227,27 +310,136 @@
       <option name="project" value="LOCAL" />
       <updated>1558972557673</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit study 元素定位&amp;元素操作">
+      <created>1559143936524</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559143936524</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit study 自动化应用场景和用例设计">
+      <created>1559830517453</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559830517454</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit study 下拉">
+      <created>1559903848987</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559903848987</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit homework 26、30">
+      <created>1559994896253</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559994896253</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit home 0530">
+      <created>1560014463214</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560014463214</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit study 框架">
+      <created>1560261014705</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560261014705</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit study">
+      <created>1560266347529</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560266347529</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commit study 框架">
+      <created>1560951396596</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1560951396596</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commit study 框架">
+      <created>1560954759612</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560954759612</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit study 框架">
+      <created>1560961190723</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560961190723</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commit study 框架">
+      <created>1560963982614</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1560963982615</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_test_login_TestLogin_test_login_0_failed_by_wrong_data - 2019.06.11 at 22h 54m 32s.xml">
+      <configuration name="pytest for test_login.TestLogin.test_login_0_failed_by_wrong_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_TestLogin_test_login_0_failed_by_wrong_data - 2019.06.11 at 22h 54m 56s.xml">
+      <configuration name="pytest for test_login.TestLogin.test_login_0_failed_by_wrong_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_TestLogin_test_login_0_failed_by_wrong_data - 2019.06.11 at 23h 01m 42s.xml">
+      <configuration name="pytest for test_login.TestLogin.test_login_0_failed_by_wrong_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_TestLogin_test_login_0_failed_by_wrong_data - 2019.06.11 at 23h 02m 16s.xml">
+      <configuration name="pytest for test_login.TestLogin.test_login_0_failed_by_wrong_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_TestLogin_test_login_0_failed_by_wrong_datas - 2019.06.11 at 23h 08m 23s.xml">
+      <configuration name="pytest for test_login.TestLogin.test_login_0_failed_by_wrong_datas" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_TestLogin_test_login_0_failed_by_wrong_datas - 2019.06.11 at 23h 11m 51s.xml">
+      <configuration name="pytest for test_login.TestLogin.test_login_0_failed_by_wrong_datas" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2019.06.11 at 23h 14m 42s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2019.06.11 at 23h 16m 31s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_TestLogin_test_login_2_success - 2019.06.19 at 22h 18m 38s.xml">
+      <configuration name="pytest for test_login.TestLogin.test_login_2_success" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_TestLogin_test_login_2_success - 2019.06.19 at 22h 20m 29s.xml">
+      <configuration name="pytest for test_login.TestLogin.test_login_2_success" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29610115" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" sideWeight="0.5005417" side_tool="true" weight="0.1886196" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49945828" visible="true" weight="0.20021075" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27843988" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.33044422" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4073673" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.3217768" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -256,119 +448,441 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first Commit Message" />
     <MESSAGE value="完善项目简介，说明框架中部分代码的使用说明" />
     <MESSAGE value="web 页面组成之html" />
     <MESSAGE value="元素定位" />
-    <option name="LAST_COMMIT_MESSAGE" value="元素定位" />
+    <MESSAGE value="commit study 元素定位&amp;元素操作" />
+    <MESSAGE value="commit study 自动化应用场景和用例设计" />
+    <MESSAGE value="commit study 下拉" />
+    <MESSAGE value="commit homework 26、30" />
+    <MESSAGE value="commit home 0530" />
+    <MESSAGE value="commit study" />
+    <MESSAGE value="commit study 框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit study 框架" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/chrome/__init__.py">
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/remote/switch_to.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/common/alert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="91" column="17" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/demo_html/lesson_html.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/chrome/service.py">
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/common/actions/pointer_actions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="232">
+          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/web_html/学习熟悉html.py">
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/common/action_chains.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="352">
+          <caret line="355" column="19" lean-forward="true" selection-start-line="355" selection-start-column="19" selection-end-line="355" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/demo_元素定位/stury_元素定位.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/demo_web页面操作1_等待切换/stury_等待页面se_switch_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
-            <element signature="e#312#342#0" expanded="true" />
+            <element signature="e#101#131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/web_html/学习html页面组成元素.html">
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/demo_web页面操作1_等待切换/stury_wait_三种等待方式.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#h5#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/web_html/学习元素定位.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/web_html/学习等待页面se_switch_window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/web_html/学习元素定位webelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="901" column="56" lean-forward="true" selection-start-line="897" selection-start-column="11" selection-end-line="908" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/chrome/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="146" column="8" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/support/expected_conditions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="129" column="24" lean-forward="true" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/common/by.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/web_html/学习等待-三种等待方式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" selection-start-line="31" selection-end-line="33" selection-end-column="43" />
+        <state relative-caret-position="690">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding>
             <element signature="e#159#189#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/web_html/学习打开新标签页.py">
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/自动化应用场景和用例设计/study_自动化应用场景用例设计1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="61" column="47" lean-forward="true" selection-start-line="51" selection-end-line="61" selection-end-column="47" />
+        <state relative-caret-position="743">
+          <caret line="37" column="15" lean-forward="true" selection-start-line="34" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/自动化应用场景和用例设计/study_自动化应用场景用例设计2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/demo_web页面操作1_等待切换/study_se_switch_iframe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="86" />
           <folding>
-            <element signature="e#156#186#0" expanded="true" />
+            <element signature="e#169#199#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/Demo/home_work/home_work_0527.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1659">
-          <caret line="105" column="10" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
+        <state relative-caret-position="788">
+          <caret line="92" column="2" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+          <folding>
+            <element signature="e#1349#1379#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/home_work/home_work_0530.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="41" />
+          <folding>
+            <element signature="e#1540#1570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/demo_web页面操作2_鼠标键盘下拉列表JS操作/study_mouse_ope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+          <folding>
+            <element signature="e#393#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageObjects/index_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
+          <folding>
+            <element signature="e#157#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37/Lib/site-packages/ddt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+          <folding>
+            <element signature="e#315#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageObjects/bid_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/项目实战框架/PO_V1/Outputs/screenshots/登陆页面_页面中间错误信息_2019-06-18 21_39_03.png" />
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/项目实战框架/PO_V1/Outputs/logs/Web_Autotest_2019-06-18 2138.log" />
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/Common/dir_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageObjects/user_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/TestDatas/Common_Datas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/Common/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#86#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190530/switch_to_iframe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#99#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190530/popup_ope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#92#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190530/mouse_ope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#338#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190530/lesson1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190601/win32api_win32gui_win32con.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="94" column="15" lean-forward="true" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/Common/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+          <folding>
+            <element signature="e#117#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/demo_web页面操作1_等待切换/study_弹框_popup_up.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#164#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190601/js_日期控件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190601/上传文件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="e#157#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190601/按键操作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageObjects/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#157#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190601/js_滚动条.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#157#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190530/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/web_html/总结+自动化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/TestCases/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="82" />
+          <folding>
+            <element signature="e#158#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/TestCases/test_invest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/TestDatas/login_datas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageLocators/indexPage_locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageLocators/bidPage_locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageLocators/login_page_locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageLocators/userPage_locator.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
