@@ -321,6 +321,15 @@
                 6、可以很好的和CI工具结合，例如jenkins
 
             2、pytest之mark功能
+                (1)、对测试用例打标签，在运行测试用例的时候，可根据标签名来过滤要运行的用例。
+                   使用方法：
+                   在测试用例/测试类前面加上：@pytest.mark.标记名
+                   示例：@pytest.mark.smoke
+                (2)、可在一个用例上打多个标签，多次使用@pytest.mark.标签名即可。
+                   示例：@pytest.mark.smoke
+                        @pytest.mark.demo
+                        def 函数():
+                            print("pytest之mark功能")
 
             3、pytest之命令运行用例
 
