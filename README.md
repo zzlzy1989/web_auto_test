@@ -332,7 +332,7 @@
                             print("pytest之mark功能")
 
             3、pytest之命令运行用例
-
+                    
             4、pytest之fixture功能
                 1、定义fixture
                     1.1 创建了一个conftest.py文件
