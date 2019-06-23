@@ -1,0 +1,104 @@
+# 目的：冒烟和回归
+# 200个用例   挑选冒烟用例？  - 50作为冒烟。
+
+# 标签功能  pytest  单元测试框架
+
+# 特点
+pytest：基于unittest之上的单元测试框架。
+1、自动发现测试模块和测试方法；
+2、断言使用assert +表达式即可；
+3、可以设置会话(从运行所有用例开始-用例结束)级、模块(.py)级、类级(setupClass/teardownClass)、函数(测试用例)级的fixtures   数据准备+清理工作
+4、测试用例不一定要放在测试类当中。
+5、有丰富的插件库，目前在300个以上。 = = allure
+
+
+# 用例识别规则
+
+# mark功能 ==
+
+# fixture功能 ==
+  1、定义fixture
+     1.1 创建了一个conftest.py文件
+     1.2 在conftest当，创建fixture
+     1.3 定义函数。函数的前面加上@pytest.fixture(scope=作用域)
+                   函数内部：yield隔开前置和后置的代码。之前是前置，之后是后置
+                             yield 返回值
+  2、调用fixture
+     在测试用例/测试类 前面加上 @pytest.mark.usefixtures("fixture对应的函数名称")
+     fixture对应的函数名称 = 它的返回值
+     fixture对应的函数名称作为测试用例的参数，将返回值传给测试用例。
+
+  3、fixture暂不支持与unittest同用。断言都用assert对吧。
+
+
+# fixure  在conftest.py当中，定义的时候，就已经决定了他的用例域，决定了它的命运。
+# fixture可以有很多个。
+
+# 无论在测试类、测试用例去主动调用fixture,都不能够改变它的命运。
+# 调用就是决定在哪儿去使用它。在哪个测试类？
+# 例子：宫廷剧：一等丫环，二等丫环，基层丫环
+                景仁宫、阿哥宫、净身房，慎刑司
+
+# pytest的用例执行顺序：
+   基本原则：按照搜索规则，先匹配到的先执行。
+   1、文件名称：按名称名称顺序去搜索。先找到的，先去内部找用例。
+   2、在py文件内部：按照代码顺序去找用例。先找到的先执行。
+
+
+# 测试报告
+
+
+# allure测试报告
+   https://docs.qameta.io/allure/#_pytest
+
+
+
+
+
+==============================20190622==================================
+# 1、mark机制  4.6
+  1、先注册  pytest.ini  [pytest] markers=标签名:说明
+  2、去给用例打标签
+     @pytest.mark.已注册的标签名
+
+     测试类和模块： 类下面设置类属性值，模块下面设置全局变量。
+     pytestmarker=pytest.mark.已注册的标签名
+     多个标签：pytestmarker=[pytest.mark.已注册的标签名,pytest.mark.已注册的标签名]
+
+
+# 2、fixture
+    # 定义  == 定命运。session:皇帝  modle:贵妃   class:公主/太子  function:官员
+    # 调用  == 你准备把它在哪儿用？
+               session:整个会话都有效。整个皇宫，圣旨。
+               module:模块内有效。XX宫，宫内有效。
+               class:类内有效。
+               function:测试用例内有效。
+
+    conftest.py文件。 === 定义多个fixture.
+
+
+# 3、参数化  ddt   参数名 = 用例的参数名称
+   # @pytest.mark.parametrize("参数名",列表)
+   # @pytest.mark.parametrize("参数1，参数2",[(数1，数2),(数1，数2)])
+
+   # 排列组合。多个参数的值排列组合。在一个用例前面 ，使用多个@pytest.mark.parametrize
+   示例：用例有4个：0,2/0,3/1,2/1,3
+    @pytest.mark.parametrize("x", [0, 1])
+    @pytest.mark.parametrize("y", [2, 3])
+    def test_foo(x, y):
+        pass
+
+
+# 4、测试报告  = junitxml,html,allure
+1、先装插件
+2、命令行的参数：
+   --html=相对路径/report.html   # 相对于pytest命令运行时，所在的根目录。
+   --alluredir=相对路径
+
+3、安装allure命令行工具：下载，解压，配置环境变量
+4、生成allure文件之后，用命令：allure serve alluredir
+
+# os.system("")
+
+
+# allure与jenkins的集成、重运行机制、pytest中的失败截图。

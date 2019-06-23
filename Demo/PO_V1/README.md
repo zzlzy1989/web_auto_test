@@ -112,6 +112,14 @@
         6、可以很好的和CI工具结合，例如jenkins
 
     6.2、pytest之mark功能
+        mark机制  4.6
+        先注册  pytest.ini  [pytest] markers=标签名:说明
+        去给用例打标签
+             @pytest.mark.已注册的标签名
+
+             测试类和模块： 类下面设置类属性值，模块下面设置全局变量。
+             pytestmarker=pytest.mark.已注册的标签名
+             多个标签：pytestmarker=[pytest.mark.已注册的标签名,pytest.mark.已注册的标签名]
 
     6.3、pytest之命令运行用例
 
@@ -123,10 +131,17 @@
                 函数内部：yield 隔开前置后后置的代码，之前是前置，之后是后置
                         yield 返回值（后面跟上返回值用于调用）
         2、调用fixture
-            在测试用例.测试类 前面加上（@pytest.mark.usefixtures("fixture对应的函数名称")）
-            fixture对应的函数名称=它的返回值
-            fixture对应的函数名称作为测试用例的参数，将返回值传给测试用例
-
+            在测试用例.测试类 前面加上（@pytest.mark.usefixtures("fixture对应的函数名称")）；
+            fixture对应的函数名称=它的返回值；
+            fixture对应的函数名称作为测试用例的参数，将返回值传给测试用例；
+            fixure  在conftest.py当中，定义的时候，就已经决定了他的用例域，决定了它的命运；
+            fixture可以有很多个；
+            无论在测试类、测试用例去主动调用fixture,都不能够改变它的命运；
+            调用就是决定在哪儿去使用它。在哪个测试类？
+            pytest的用例执行顺序：
+               基本原则：按照搜索规则，先匹配到的先执行。
+               1、文件名称：按名称名称顺序去搜索。先找到的，先去内部找用例。
+               2、在py文件内部：按照代码顺序去找用例。先找到的先执行。
         3、fixture暂不支持与unittest同用，断言都用assert.
         4、pytest之fixture参数化-多运行，pytest层级覆盖。测试用例与其同级或者在其子目录
         5、fixture的scope参数
@@ -139,14 +154,42 @@
             setup，在测试函数或类之前执行，完成准备工作，例如数据库链接、测试数据、打开文件等
             teardown，在测试函数或类之后执行，完成收尾工作，例如断开数据库链接、回收内存资源等
             备注：也可以通过在fixture函数中通过yield实现setup和teardown功能
+
+        7、fixture定义与调用
+            定义  == 定命运。session、modle、class、function
+            调用  == 你准备把它在哪儿用？
+                session:整个会话都有效。
+                module:模块内有效。
+                class:类内有效。
+                function:测试用例内有效。
+                conftest.py文件。 === 定义多个fixture.
+
     6.5、pytest之参数化---ddt
+        参数化  ddt   参数名 = 用例的参数名称
+        @pytest.mark.parametrize("参数名",列表)
+        @pytest.mark.parametrize("参数1，参数2",[(数1，数2),(数1，数2)])
+        排列组合。多个参数的值排列组合。在一个用例前面 ，使用多个@pytest.mark.parametrize
+        示例：用例有4个：0,2/0,3/1,2/1,3
+            @pytest.mark.parametrize("x", [0, 1])
+            @pytest.mark.parametrize("y", [2, 3])
+            def test_foo(x, y):
+                pass
 
     6.6、pytest之重运行
 
     6.7、pytest之HTML报告
+        测试报告  = junitxml,html,allure
+        1、先装插件
+        2、命令行的参数：
+           --html=相对路径/report.html   # 相对于pytest命令运行时，所在的根目录。
+           --alluredir=相对路径
+        3、安装allure命令行工具：下载，解压，配置环境变量
+        4、生成allure文件之后，用命令：allure serve alluredir
+        os.system("")
+        allure与jenkins的集成、重运行机制、pytest中的失败截图。
 
-    6.8、pytest之allure测试
-
+    6.8、pytest之allure测试（allure测试报告）
+         https://docs.qameta.io/allure/#_pytest
     6.9、pytest之jenkins持续集成
 
 

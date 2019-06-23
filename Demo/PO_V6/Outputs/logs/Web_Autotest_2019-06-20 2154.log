@@ -1,0 +1,16 @@
+ Thu, 20 Jun 2019 21:54:13  INFO logger.py <module> [ line:24 ] hehehe
+ Thu, 20 Jun 2019 21:54:22  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="phone"]') 可见。
+ Thu, 20 Jun 2019 21:54:23  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:54:22.816440，结束等待时间点：2019-06-20 21:54:23.060182，等待时长为：0:00:00.243742
+ Thu, 20 Jun 2019 21:54:23  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入用户名 中的元素 ('xpath', '//input[@name="phone"]') 
+ Thu, 20 Jun 2019 21:54:23  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('18684720553',)
+ Thu, 20 Jun 2019 21:54:23  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="password"]') 可见。
+ Thu, 20 Jun 2019 21:54:23  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:54:23.648709，结束等待时间点：2019-06-20 21:54:23.821613，等待时长为：0:00:00.172904
+ Thu, 20 Jun 2019 21:54:23  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入密码 中的元素 ('xpath', '//input[@name="password"]') 
+ Thu, 20 Jun 2019 21:54:23  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="password"]') 输入文本内容:('python',)
+ Thu, 20 Jun 2019 21:54:24  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('tag name', 'button') 可见。
+ Thu, 20 Jun 2019 21:54:24  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:54:24.264354，结束等待时间点：2019-06-20 21:54:24.406249，等待时长为：0:00:00.141895
+ Thu, 20 Jun 2019 21:54:24  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_点击登陆按钮 中的元素 ('tag name', 'button') 
+ Thu, 20 Jun 2019 21:54:24  INFO basepage.py click_element [ line:74 ]  点击元素 ('tag name', 'button')
+ Thu, 20 Jun 2019 21:54:24  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//a[text()="关于我们"]') 可见。
+ Thu, 20 Jun 2019 21:54:47  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:54:24.728086，结束等待时间点：2019-06-20 21:54:47.555432，等待时长为：0:00:22.827346
+ Thu, 20 Jun 2019 21:54:48  INFO basepage.py get_element [ line:51 ] 查找 首页_找用户昵称元素 中的元素 ('xpath', '//a[@href="/Member/index.html"]') 

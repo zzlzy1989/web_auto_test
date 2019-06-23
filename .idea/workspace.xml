@@ -2,8 +2,123 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4874073-952b-4512-93fa-a3758c9e6683" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/API/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/Common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/Common/basepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/Common/dir_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/Common/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/Outputs/logs/Web_Autotest_2019-06-20 1746.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/Outputs/screenshots/标页面_投资失败提示框 - 提示信息获取_2019-06-20 17_40_43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/Outputs/screenshots/登陆页面_页面中间错误信息_2019-06-18 21_39_40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/PageLocators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/PageLocators/bidPage_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/PageLocators/indexPage_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/PageLocators/login_page_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/PageLocators/userPage_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/PageObjects/Common_Business/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/PageObjects/ModeCC/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/PageObjects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/PageObjects/bid_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/PageObjects/index_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/PageObjects/login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/PageObjects/user_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/TestCases/ModeA/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/TestCases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/TestCases/test_invest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/TestCases/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/TestDatas/Comm_Datas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/TestDatas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/TestDatas/invest_datas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/TestDatas/login_datas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V4/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/Common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/Common/basepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/Common/dir_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/Common/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/Outputs/logs/Web_Autotest_2019-06-20 1746.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/Outputs/logs/Web_Autotest_2019-06-20 2152.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/Outputs/logs/Web_Autotest_2019-06-20 2154.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/PageLocators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/PageLocators/bidPage_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/PageLocators/indexPage_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/PageLocators/login_page_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/PageLocators/userPage_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/PageObjects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/PageObjects/bid_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/PageObjects/index_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/PageObjects/login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/PageObjects/user_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/TestCases/ModeA/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/TestCases/ModeA/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/TestCases/ModeB/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/TestCases/ModeB/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/TestCases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/TestCases/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/TestCases/test_invest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/TestCases/test_login_pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/TestCases/unittest_test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/TestDatas/Comm_Datas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/TestDatas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/TestDatas/invest_datas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/TestDatas/login_datas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V5/说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Common/basepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Common/dir_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Common/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/allure_report/48ca7dbd-850d-4fff-90ee-1bdb9cbb0055-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/allure_report/69aed6af-879d-49c6-92f9-9d2ef325e936-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/allure_report/873b3bcf-a9a9-44de-a95a-adc43d72ce90-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/allure_report/a4af9e91-1751-44f3-809f-62d438c2dc43-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-20 1746.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-20 2112.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-20 2113.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-20 2115.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-20 2146.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-20 2152.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-20 2154.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-22 0944.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-22 0950.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-22 0953.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-22 1012.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-22 1015.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-22 1101.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-22 1118.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/reports/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/reports/pytest_run_report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/screenshots/标页面_投资失败提示框 - 提示信息获取_2019-06-20 17_40_43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/Outputs/screenshots/登陆页面_页面中间错误信息_2019-06-18 21_39_40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/PageLocators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/PageLocators/bidPage_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/PageLocators/indexPage_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/PageLocators/login_page_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/PageLocators/userPage_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/PageObjects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/PageObjects/bid_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/PageObjects/index_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/PageObjects/login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/PageObjects/user_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/TestCases/ModeA/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/TestCases/ModeA/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/TestCases/ModeB/__init__(1).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/TestCases/ModeB/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/TestCases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/TestCases/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/TestCases/test_invest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/TestCases/test_login_pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/TestCases/unittest_test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/TestDatas/Comm_Datas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/TestDatas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/TestDatas/invest_datas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/TestDatas/login_datas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/说明.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/PO_V1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/PO_V1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/项目实战框架/__init__.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +129,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/Demo/PO_V1/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="331" column="50" lean-forward="true" selection-start-line="331" selection-start-column="50" selection-end-line="331" selection-end-column="50" />
+            <state relative-caret-position="-889">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
         </entry>
@@ -45,48 +160,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/TestCases/test_login.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Demo/PO_V1/TestCases/test_login.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Demo/home_work/home_work_0530.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Demo/web_html/demo_web页面操作1_等待切换/stury_wait_三种等待方式.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Demo/web_html/demo_web页面操作2_鼠标键盘下拉列表JS操作/study_mouse_ope.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Demo/web_html/demo_web页面操作1_等待切换/study_se_switch_iframe.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/Common/logger.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Demo/PO_V1/Common/logger.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/项目实战+框架/PO_V1/PageObjects/login_page.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战+框架/PO_V1/TestCases/test_login.py" />
-        <option value="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/study_弹框_popip_up.py" />
-        <option value="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/study_弹框_popup_up.py" />
-        <option value="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/study_se_switch_iframe.py" />
-        <option value="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/study_mouse_ope.py" />
-        <option value="$PROJECT_DIR$/demo/web_html/demo_web页面操作2_鼠标键盘下拉列表JS操作/study_mouse_ope.py" />
-        <option value="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/stury_等待页面se_switch_window.py" />
-        <option value="$PROJECT_DIR$/demo/web_html/demo_web页面操作1_等待切换/stury_wait_三种等待方式.py" />
-        <option value="$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/common/action_chains.py" />
-        <option value="$PROJECT_DIR$/demo/home_work/home_work_0527.py" />
-        <option value="$PROJECT_DIR$/demo/home_work/home_work_0528.py" />
-        <option value="$PROJECT_DIR$/demo/home_work/home_work_0530.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestDatas/Common_data.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageLocaters/login_page_locater.py" />
-        <option value="$PROJECT_DIR$/PO_V1/TestCases/test_login.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageObjects/index_page.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestDatas/test_invest.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageObjects/bid_page.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageLocators/bidPage_locator.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageLocators/login_page_locator.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageLocators/indexPage_locator.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageObjects/user_page.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestCases/test_invest.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/main.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/Common/dir_config.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestDatas/login_datas.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/Common/logger.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/Common/basepage.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/PageObjects/login_page.py" />
-        <option value="$PROJECT_DIR$/demo/项目实战框架/PO_V1/TestCases/test_login.py" />
-        <option value="$PROJECT_DIR$/demo/web_html/class_web_20190601/win32api_win32gui_win32con.py" />
         <option value="$PROJECT_DIR$/demo/web_html/class_web_20190601/js_日期控件.py" />
         <option value="$PROJECT_DIR$/demo/web_html/class_web_20190601/js_滚动条.py" />
         <option value="$PROJECT_DIR$/demo/web_html/class_web_20190601/上传文件.py" />
@@ -106,6 +189,38 @@
         <option value="$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageObjects/index_page.py" />
         <option value="$PROJECT_DIR$/Demo/项目实战框架/PO_V1/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Demo/PO_V5/Common/logger.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V5/Common/basepage.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V5/PageObjects/bid_page.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V5/PageObjects/index_page.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V5/PageObjects/login_page.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V5/PageObjects/user_page.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V5/TestCases/conftest.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V5/TestCases/test_invest.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V5/TestCases/test_login_pytest.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V5/TestCases/unittest_test_login.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V5/TestDatas/login_datas.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V4/Common/basepage.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V4/Common/logger.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V4/PageObjects/bid_page.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V4/PageObjects/index_page.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V4/PageObjects/login_page.py" />
+        <option value="$PROJECT_DIR$/PageLocators/__init__.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V4/PageObjects/user_page.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V4/TestCases/test_invest.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V4/TestCases/test_login.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V4/main.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V6/Common/basepage.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V6/Common/logger.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V6/PageObjects/bid_page.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V6/PageObjects/index_page.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V6/PageObjects/login_page.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V6/PageObjects/user_page.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V6/TestCases/conftest.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V6/TestCases/test_invest.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V6/TestCases/test_login_pytest.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V6/TestCases/unittest_test_login.py" />
+        <option value="$PROJECT_DIR$/Demo/PO_V1/README.md" />
       </list>
     </option>
   </component>
@@ -131,6 +246,23 @@
               <item name="web_auto_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_auto_test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="web_auto_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_auto_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_auto_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_auto_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="PO_V1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_auto_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_auto_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="PO_V6" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -140,24 +272,24 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Demo/项目实战框架/PO_V1/Outputs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Demo" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\PycharmProjects\web_auto_test\demo\web_html" />
-      <recent name="E:\PycharmProjects\web_auto_test\demo\项目实战框架\PO_V1\TestCases" />
-      <recent name="E:\PycharmProjects\web_auto_test" />
-      <recent name="E:\PycharmProjects\web_auto_test\demo\web_html\demo_web页面操作2_鼠标键盘下拉列表JS操作" />
-      <recent name="E:\PycharmProjects\web_auto_test\demo\web_html\demo_等待_切换" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PycharmProjects\web_auto_test\Demo" />
       <recent name="E:\PycharmProjects\web_auto_test\Demo\项目实战框架\PO_V1\Outputs" />
       <recent name="E:\PycharmProjects\web_auto_test\Demo\项目实战框架\PO_V1\TestDatas" />
       <recent name="E:\PycharmProjects\web_auto_test\demo\web_html" />
       <recent name="E:\PycharmProjects\web_auto_test\demo\项目实战框架\PO_V1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PycharmProjects\web_auto_test\Demo" />
+      <recent name="E:\PycharmProjects\web_auto_test\demo\web_html" />
       <recent name="E:\PycharmProjects\web_auto_test\demo\项目实战框架\PO_V1\TestCases" />
+      <recent name="E:\PycharmProjects\web_auto_test" />
+      <recent name="E:\PycharmProjects\web_auto_test\demo\web_html\demo_web页面操作2_鼠标键盘下拉列表JS操作" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -171,6 +303,34 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="web_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo/PO_V5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/PO_V5/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -316,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561044920634</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="commit study 框架">
+      <created>1561250578920</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1561250578920</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -357,7 +524,7 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" sideWeight="0.5005417" side_tool="true" weight="0.1886196" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49945828" visible="true" weight="0.1512118" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49945828" visible="true" weight="0.25922024" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.33044422" />
@@ -433,375 +600,291 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit study 框架" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/自动化应用场景和用例设计/study_自动化应用场景用例设计1.py">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V5/PageObjects/user_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="37" column="15" lean-forward="true" selection-start-line="34" selection-end-line="37" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/自动化应用场景和用例设计/study_自动化应用场景用例设计2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/web_html/demo_web页面操作1_等待切换/study_se_switch_iframe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="86" />
+        <state relative-caret-position="152">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
-            <element signature="e#169#199#0" expanded="true" />
+            <element signature="e#86#122#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/home_work/home_work_0527.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="92" column="2" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
-          <folding>
-            <element signature="e#1349#1379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/support/wait.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/home_work/home_work_0530.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="41" />
-          <folding>
-            <element signature="e#1540#1570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/web_html/demo_web页面操作2_鼠标键盘下拉列表JS操作/study_mouse_ope.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
-          <folding>
-            <element signature="e#393#457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python37/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python37/Lib/site-packages/ddt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-          <folding>
-            <element signature="e#315#329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/项目实战框架/PO_V1/Outputs/screenshots/登陆页面_页面中间错误信息_2019-06-18 21_39_03.png" />
-    <entry file="file://$PROJECT_DIR$/demo/项目实战框架/PO_V1/Outputs/logs/Web_Autotest_2019-06-18 2138.log" />
-    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190530/switch_to_iframe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#99#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190530/popup_ope.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#92#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190530/mouse_ope.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#338#402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190530/lesson1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190601/win32api_win32gui_win32con.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1786">
-          <caret line="94" column="15" lean-forward="true" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/web_html/demo_web页面操作1_等待切换/study_弹框_popup_up.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#164#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190601/js_日期控件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190601/上传文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding>
-            <element signature="e#157#172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190601/按键操作.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190601/js_滚动条.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#157#187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/web_html/class_web_20190530/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/web_html/总结+自动化.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/TestDatas/Common_Datas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="13" selection-start-line="15" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/TestDatas/login_datas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/TestDatas/invest_datas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/web/PO_V4_BasePage_完全替换版本/PO_V4_BasePage_完全替换版本/PageObjects/bid_page.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/web/PO_V4_BasePage_完全替换版本/PO_V4_BasePage_完全替换版本/PageObjects/index_page.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/TestCases/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="16" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/_pytest/mark/structures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="197">
           <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/TestCases/test_invest.py">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V5/TestCases/unittest_test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        <state relative-caret-position="131">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/TestCases/conftest.py">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V5/TestCases/test_login_pytest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="264">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#186#216#0" expanded="true" />
+            <element signature="e#100#155#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/TestCases/test_login_pytest.py">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V5/TestCases/test_invest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1142">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+          <folding>
+            <element signature="e#801#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V5/TestCases/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/Common/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#91#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/Common/dir_config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/Common/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/Outputs/logs/Web_Autotest_2019-06-20 1746.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/PageLocators/bidPage_locator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/PageLocators/indexPage_locator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/PageLocators/login_page_locator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/PageLocators/userPage_locator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/PageObjects/bid_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/PageObjects/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/PageObjects/index_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/PageObjects/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageLocators/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/PageObjects/user_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/TestCases/test_invest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/TestCases/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#194#207#0" expanded="true" />
-          </folding>
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageObjects/bid_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageObjects/index_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#157#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageObjects/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding>
-            <element signature="e#157#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageObjects/user_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="e#117#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageLocators/bidPage_locator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/web/PO_V4_BasePage_完全替换版本/PO_V4_BasePage_完全替换版本/PageLocators/userPage_locator.py">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/TestDatas/Comm_Datas.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageLocators/userPage_locator.py">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/TestDatas/login_datas.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageLocators/login_page_locator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/Common/logger.py">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/自动化应用场景和用例设计/study_自动化应用场景用例设计2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/自动化应用场景和用例设计/study_自动化应用场景用例设计1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V4/TestDatas/invest_datas.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/Outputs/allure_report/48ca7dbd-850d-4fff-90ee-1bdb9cbb0055-result.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="59" lean-forward="true" selection-start-column="59" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/Outputs/allure_report/69aed6af-879d-49c6-92f9-9d2ef325e936-container.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/Common/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding>
-            <element signature="e#117#131#0" expanded="true" />
+            <element signature="e#86#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/Common/dir_config.py">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/Common/dir_config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/Common/basepage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        <state relative-caret-position="266">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/Common/basepage.py">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-20 1746.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-856">
-          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding>
-            <element signature="e#117#160#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-2014" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/main.py">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/Outputs/reports/pytest_run_report.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-          <folding>
-            <element signature="e#416#431#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-4841" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/PageLocators/indexPage_locator.py">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/PageLocators/bidPage_locator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/PageObjects/bid_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" selection-end-line="14" selection-end-column="59" />
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/项目实战框架/PO_V1/README.md">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/PageObjects/index_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="878">
-          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+        <state relative-caret-position="133">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/PageObjects/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="331" column="50" lean-forward="true" selection-start-line="331" selection-start-column="50" selection-end-line="331" selection-end-column="50" />
+        <state relative-caret-position="171">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/PageObjects/user_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestCases/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestCases/test_invest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestCases/test_login_pytest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestCases/unittest_test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestDatas/Comm_Datas.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestDatas/invest_datas.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestDatas/login_datas.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1957">
+          <caret line="103" column="39" lean-forward="true" selection-start-line="92" selection-end-line="103" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V1/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-889">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,123 @@
+ Thu, 20 Jun 2019 21:13:18  INFO logger.py <module> [ line:24 ] hehehe
+ Thu, 20 Jun 2019 21:13:18  INFO test_invest.py setUpClass [ line:71 ] =====用例类前置：初始化浏览器会话，登陆前程贷系统=======
+ Thu, 20 Jun 2019 21:13:26  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="phone"]') 可见。
+ Thu, 20 Jun 2019 21:13:26  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:13:26.600269，结束等待时间点：2019-06-20 21:13:26.736188，等待时长为：0:00:00.135919
+ Thu, 20 Jun 2019 21:13:26  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入用户名 中的元素 ('xpath', '//input[@name="phone"]') 
+ Thu, 20 Jun 2019 21:13:26  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('18684720553',)
+ Thu, 20 Jun 2019 21:13:27  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="password"]') 可见。
+ Thu, 20 Jun 2019 21:13:27  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:13:27.248934，结束等待时间点：2019-06-20 21:13:27.415749，等待时长为：0:00:00.166815
+ Thu, 20 Jun 2019 21:13:27  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入密码 中的元素 ('xpath', '//input[@name="password"]') 
+ Thu, 20 Jun 2019 21:13:27  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="password"]') 输入文本内容:('python',)
+ Thu, 20 Jun 2019 21:13:27  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('tag name', 'button') 可见。
+ Thu, 20 Jun 2019 21:13:27  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:13:27.711765，结束等待时间点：2019-06-20 21:13:27.839548，等待时长为：0:00:00.127783
+ Thu, 20 Jun 2019 21:13:27  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_点击登陆按钮 中的元素 ('tag name', 'button') 
+ Thu, 20 Jun 2019 21:13:27  INFO basepage.py click_element [ line:74 ]  点击元素 ('tag name', 'button')
+ Thu, 20 Jun 2019 21:13:28  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//a[@class="btn btn-special"]') 可见。
+ Thu, 20 Jun 2019 21:13:50  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:13:28.118691，结束等待时间点：2019-06-20 21:13:50.589318，等待时长为：0:00:22.470627
+ Thu, 20 Jun 2019 21:13:50  INFO basepage.py get_element [ line:51 ] 查找 首页_点击第一个抢投标按钮 中的元素 ('xpath', '//a[@class="btn btn-special"]') 
+ Thu, 20 Jun 2019 21:13:50  INFO basepage.py click_element [ line:74 ]  点击元素 ('xpath', '//a[@class="btn btn-special"]')
+ Thu, 20 Jun 2019 21:14:13  INFO test_invest.py test_invest_1_success [ line:92 ] *********投资用例：正常场景-投资成功*********
+ Thu, 20 Jun 2019 21:14:13  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 可见。
+ Thu, 20 Jun 2019 21:14:13  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:14:13.675850，结束等待时间点：2019-06-20 21:14:13.784788，等待时长为：0:00:00.108938
+ Thu, 20 Jun 2019 21:14:13  INFO basepage.py get_element [ line:51 ] 查找 标页面_获取用户余额 中的元素 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 
+ Thu, 20 Jun 2019 21:14:13  INFO basepage.py get_element_attribute [ line:107 ] 获取元素 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 的属性 data-amount 值为:497602.85
+ Thu, 20 Jun 2019 21:14:13  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 可见。
+ Thu, 20 Jun 2019 21:14:13  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:14:13.836758，结束等待时间点：2019-06-20 21:14:13.911714，等待时长为：0:00:00.074956
+ Thu, 20 Jun 2019 21:14:13  INFO basepage.py get_element [ line:51 ] 查找 标页面_金额输入框 中的元素 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 
+ Thu, 20 Jun 2019 21:14:13  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 输入文本内容:(1000,)
+ Thu, 20 Jun 2019 21:14:14  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//button[text()="投标"]') 可见。
+ Thu, 20 Jun 2019 21:14:14  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:14:14.289495，结束等待时间点：2019-06-20 21:14:14.401432，等待时长为：0:00:00.111937
+ Thu, 20 Jun 2019 21:14:14  INFO basepage.py get_element [ line:51 ] 查找 标页面_提交投资操作 中的元素 ('xpath', '//button[text()="投标"]') 
+ Thu, 20 Jun 2019 21:14:14  INFO basepage.py click_element [ line:74 ]  点击元素 ('xpath', '//button[text()="投标"]')
+ Thu, 20 Jun 2019 21:14:14  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 可见。
+ Thu, 20 Jun 2019 21:14:15  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:14:14.611311，结束等待时间点：2019-06-20 21:14:15.281508，等待时长为：0:00:00.670197
+ Thu, 20 Jun 2019 21:14:15  INFO basepage.py get_element [ line:51 ] 查找 标页面_投资成功的提示框 - 点击查看并激活 中的元素 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 
+ Thu, 20 Jun 2019 21:14:15  INFO basepage.py click_element [ line:74 ]  点击元素 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')
+ Thu, 20 Jun 2019 21:14:37  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//li[@class="color_sub"]') 可见。
+ Thu, 20 Jun 2019 21:14:37  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:14:37.066830，结束等待时间点：2019-06-20 21:14:37.200752，等待时长为：0:00:00.133922
+ Thu, 20 Jun 2019 21:14:37  INFO basepage.py get_element [ line:51 ] 查找 个人页面_获取用户余额 中的元素 ('xpath', '//li[@class="color_sub"]') 
+ Thu, 20 Jun 2019 21:14:37  INFO basepage.py get_element_text [ line:122 ] 获取元素 ('xpath', '//li[@class="color_sub"]') 的文件值为:496602.85元
+ Thu, 20 Jun 2019 21:14:37  INFO test_invest.py tearDown [ line:86 ] =====每一个用例后置：刷新当前页面=======
+ Thu, 20 Jun 2019 21:14:59  INFO test_invest.py tearDownClass [ line:82 ] =====用例类后置：关闭浏览器会话,清理环境=======
+ Thu, 20 Jun 2019 21:15:09  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="phone"]') 可见。
+ Thu, 20 Jun 2019 21:15:09  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:15:09.157272，结束等待时间点：2019-06-20 21:15:09.332172，等待时长为：0:00:00.174900
+ Thu, 20 Jun 2019 21:15:09  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入用户名 中的元素 ('xpath', '//input[@name="phone"]') 
+ Thu, 20 Jun 2019 21:15:09  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('18684720553',)
+ Thu, 20 Jun 2019 21:15:09  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//input[@name="password"]') 可见。
+ Thu, 20 Jun 2019 21:15:09  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:15:09.762461，结束等待时间点：2019-06-20 21:15:09.855423，等待时长为：0:00:00.092962
+ Thu, 20 Jun 2019 21:15:09  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_输入密码 中的元素 ('xpath', '//input[@name="password"]') 
+ Thu, 20 Jun 2019 21:15:09  INFO basepage.py input_text [ line:91 ]  给元素 ('xpath', '//input[@name="password"]') 输入文本内容:('python',)
+ Thu, 20 Jun 2019 21:15:10  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('tag name', 'button') 可见。
+ Thu, 20 Jun 2019 21:15:10  INFO basepage.py wait_eleVisible [ line:36 ] 开始等待时间点：2019-06-20 21:15:10.130264，结束等待时间点：2019-06-20 21:15:10.262187，等待时长为：0:00:00.131923
+ Thu, 20 Jun 2019 21:15:10  INFO basepage.py get_element [ line:51 ] 查找 登陆页面_点击登陆按钮 中的元素 ('tag name', 'button') 
+ Thu, 20 Jun 2019 21:15:10  INFO basepage.py click_element [ line:74 ]  点击元素 ('tag name', 'button')
+ Thu, 20 Jun 2019 21:15:10  INFO basepage.py wait_eleVisible [ line:28 ] 等待元素 ('xpath', '//a[text()="关于我们"]') 可见。
+ Thu, 20 Jun 2019 21:15:21  ERROR basepage.py wait_eleVisible [ line:39 ] 等待元素可见失败：
+Traceback (most recent call last):
+  File "D:\Pychram-Workspace\PO_V5\Common\basepage.py", line 32, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "d:\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "d:\python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "d:\python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "d:\python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.17134 x86_64)
+
+ Thu, 20 Jun 2019 21:15:21  ERROR basepage.py save_web_screenshot [ line:142 ] 网页截屏失败！
+Traceback (most recent call last):
+  File "D:\Pychram-Workspace\PO_V5\Common\basepage.py", line 32, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "d:\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "d:\python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "d:\python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "d:\python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.17134 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Pychram-Workspace\PO_V5\Common\basepage.py", line 139, in save_web_screenshot
+    self.driver.save_screenshot(screenshot_dir +"/" + filepath)
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.17134 x86_64)
+
