@@ -9,7 +9,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import datetime
 import time
-from Demo.PO_V1 import screenshot_dir
+from Demo.PO_V1.Common.dir_config import screenshot_dir
 
 class BasePage:
 

@@ -22,6 +22,7 @@
 # 提供测试报告
 import unittest
 from HTMLTestRunnerNew import HTMLTestRunner
+from Demo.PO_V1.Common.dir_config import testcases_dir,htmlreport_dir
 
 #实例化套件对象
 s = unittest.TestSuite()
