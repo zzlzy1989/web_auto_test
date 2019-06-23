@@ -4,13 +4,12 @@
 # @Author : 蓝天下的风
 # @Software: PyCharm
 
-from Demo.项目实战框架.PO_V1.Common import logger
 import logging
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import datetime
 import time
-from Demo.项目实战框架.PO_V1.Common.dir_config import screenshot_dir
+from Demo.PO_V1 import screenshot_dir
 
 class BasePage:
 

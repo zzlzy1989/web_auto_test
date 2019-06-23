@@ -7,8 +7,8 @@
 # @Software: PyCharm
 
 
-from Demo.项目实战框架.PO_V1.PageLocators.bidPage_locator import BidPageLocator as loc
-from Demo.项目实战框架.PO_V1.Common.basepage import BasePage
+from Demo.PO_V1.PageLocators import BidPageLocator as loc
+from Demo.PO_V1 import BasePage
 
 
 class BidPage(BasePage):

@@ -9,9 +9,8 @@
 
 
 from selenium import webdriver
-import logging,time
 import pytest
-from Demo.项目实战框架.PO_V1.TestDatas import Common_Datas as CD
+from Demo.PO_V1.TestDatas import Common_Datas as CD
 
 
 # fixture 的定义，如果有返回值，那么写在yield后面

@@ -6,10 +6,8 @@
 # @File : login_page.py 
 # @Software: PyCharm
 
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from Demo.项目实战框架.PO_V1.PageLocators.login_page_locator import LoginPageLocator as loc
-from Demo.项目实战框架.PO_V1.Common.basepage import BasePage
+from Demo.PO_V1.PageLocators import LoginPageLocator as loc
+from Demo.PO_V1 import BasePage
 # 一个用例，一次浏览器的打开和结束
 class LoginPage(BasePage):
 

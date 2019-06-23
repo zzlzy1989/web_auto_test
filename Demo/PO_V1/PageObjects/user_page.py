@@ -4,8 +4,8 @@
 # @Author : 蓝天下的风
 # @Software: PyCharm
 
-from Demo.项目实战框架.PO_V1.Common.basepage import BasePage
-from Demo.项目实战框架.PO_V1.PageLocators.userPage_locator import UserPageLocator as loc
+from Demo.PO_V1 import BasePage
+from Demo.PO_V1.PageLocators import UserPageLocator as loc
 
 class UserPage(BasePage):
 

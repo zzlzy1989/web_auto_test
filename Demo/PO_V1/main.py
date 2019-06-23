@@ -21,9 +21,7 @@
 
 # 提供测试报告
 import unittest
-import os
 from HTMLTestRunnerNew import HTMLTestRunner
-from Demo.项目实战框架.PO_V1.Common.dir_config import *
 
 #实例化套件对象
 s = unittest.TestSuite()

@@ -10,8 +10,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import time
-from Demo.项目实战框架.PO_V1.PageLocators.indexPage_locator import IndexPageLocator as loc
-from Demo.项目实战框架.PO_V1.Common.basepage import BasePage
+from Demo.PO_V1.PageLocators import IndexPageLocator as loc
+from Demo.PO_V1 import BasePage
 
 class IndexPage(BasePage):
 

@@ -42,13 +42,11 @@
 
 import unittest,ddt,logging,time
 from selenium import webdriver
-from Demo.项目实战框架.PO_V1.Common import logger
-from Demo.项目实战框架.PO_V1.TestDatas import Common_Datas as CD
-from Demo.项目实战框架.PO_V1.TestDatas import invest_datas as ID
-from Demo.项目实战框架.PO_V1.PageObjects.login_page import LoginPage
-from Demo.项目实战框架.PO_V1.PageObjects.bid_page import BidPage
-from Demo.项目实战框架.PO_V1.PageObjects.index_page import IndexPage
-from Demo.项目实战框架.PO_V1.PageObjects.user_page import UserPage
+from Demo.PO_V1.TestDatas import Common_Datas as CD, invest_datas as ID
+from Demo.PO_V1 import LoginPage
+from Demo.PO_V1 import BidPage
+from Demo.PO_V1 import IndexPage
+from Demo.PO_V1 import UserPage
 
 
 
