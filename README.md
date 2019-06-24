@@ -296,9 +296,9 @@
             函数(测试用例)级的fixtures，数据准备+清理工作
             (4)、有丰富的插件，300+以上。==allure
             (5)、测试用例不一定要放在测试类当中。
-            安装命令：pip install pytest
-            安装html报告插件：pip install pytest-html
-            pytest插件地址：http://plugincompat.herokuapp.com/
+                安装命令：pip install pytest
+                安装html报告插件：pip install pytest-html
+                pytest插件地址：http://plugincompat.herokuapp.com/
             pytest收集测试用例的规则：
                 (1)、默认从当前目录中收集测试用例，即在哪个目录下运行pytest命令，则从哪个目录当中搜索；
                 (2)、搜索规则：
@@ -387,6 +387,15 @@
                     pass
 
         6、pytest之重运行
+            插件名称：rerunfailures
+            安装方法：pip install pytest-rerunfailures（失败case重复执行）
+            使用方式：
+            命令行参数形式：
+            命令：pytest -reruns 重试次数
+            比如：pytest --reruns 2 表示：运行失败的用例可以重新运行两次
+            命令：pytest --reruns 重试次数 --reruns-delay 次数之间设置的延时（单位：秒）
+            Pytest --reruns 2 --reruns-delay 5
+            表示失败的用例可以重新运行2次，第一次和第二次的时间间隔为5秒；
 
         7、pytest之HTML报告
             测试报告  = junitxml,html,allure

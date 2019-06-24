@@ -60,9 +60,11 @@ from Demo.PO_V6.PageObjects.user_page import UserPage
 
 
 
-
+@pytest.mark.usefixtures("login_web")
+@pytest.mark.usefixtures("open_url")
 @ddt.ddt
 class TestInvest(unittest.TestCase):
+
 
     @classmethod
     def setUpClass(cls):

@@ -23,7 +23,8 @@ from selenium import webdriver
 import pytest
 
 from Demo.PO_V6.TestDatas import Comm_Datas as cd
-
+import os
+from Demo.PO_V6.PageObjects.login_page import LoginPage
 
 # 全局变量
 driver = None
@@ -31,9 +32,9 @@ driver = None
 # fixture的定义。如果有返回值，那么写在yield后面。
 # 在测试用例当中，调用有返回值的fixture函数时，函数名称就是代表返回值。
 # 在测试用例当中，函数名称作为用例的参数即可。
-@pytest.fixture(scope="class")  #
+@pytest.fixture(scope="class")  # Base基本的操作
 def open_url():
-    global driver
+    # global driver
     # 前置
     driver = webdriver.Chrome()
     driver.get(cd.web_login_url)
@@ -42,12 +43,13 @@ def open_url():
     driver.quit()
 
 
+
 # 刷新页面 - 定义的第二个fixture
 @pytest.fixture
-def refresh_page():
+def refresh_page(open_url):
     yield
-    global driver
-    driver.refresh()
+    # global driver
+    open_url.refresh()
 
 
 # session级别的
@@ -63,5 +65,20 @@ def session_action():
 # @pytest.mark.usefixtures("函数名称")
 
 @pytest.fixture(scope="class")
-def login_web():
-    pass
+def login_web(open_url):    # 登录操作
+    # 登录操作
+    LoginPage(open_url).login(cd.user,cd.passwd)
+    yield open_url
+
+
+# class 级别的前置后置
+# 投资的前置 = 打开浏览器 + 访问网址 + 登录
+# 登录的前置 = 打开浏览器 + 访问网址
+# 登录的后置 = 关闭浏览器
+# 投资的后置 = 关闭浏览器
+
+# function 级别的后置
+# 登录的后置 = 刷新网页
+# 投资的后置 = 刷新网页
+
+# 新的用例的前置 后置
