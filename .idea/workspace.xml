@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4874073-952b-4512-93fa-a3758c9e6683" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Demo/PO_V6/TestCases/test_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/PO_V6/TestCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/PO_V6/TestCases/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/PO_V6/TestCases/test_invest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/PO_V6/TestCases/test_invest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +11,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestCases/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="83" column="12" lean-forward="true" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+            <state relative-caret-position="1482">
+              <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
               <folding>
                 <element signature="e#421#451#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestCases/test_invest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1235">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+              <folding>
+                <element signature="e#801#816#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestCases/test_login_pytest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+              <folding>
+                <element signature="e#100#155#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,6 +179,13 @@
               <item name="web_auto_test" type="462c0819:PsiDirectoryNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
               <item name="PO_V6" type="462c0819:PsiDirectoryNode" />
+              <item name="PageLocators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_auto_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_auto_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="PO_V6" type="462c0819:PsiDirectoryNode" />
               <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -167,6 +194,13 @@
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
               <item name="PO_V6" type="462c0819:PsiDirectoryNode" />
               <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_auto_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_auto_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="PO_V6" type="462c0819:PsiDirectoryNode" />
+              <item name="TestDatas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -439,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561380325351</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="commit study 框架">
+      <created>1561384017694</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1561384017694</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -476,7 +517,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" sideWeight="0.5005417" side_tool="true" weight="0.1886196" />
@@ -629,21 +669,7 @@
     <entry file="file://$PROJECT_DIR$/Demo/PO_V6/Outputs/allure_report/69aed6af-879d-49c6-92f9-9d2ef325e936-container.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-20 1746.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2014" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/PageLocators/bidPage_locator.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/PageObjects/bid_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/Outputs/logs/Web_Autotest_2019-06-20 1746.log" />
     <entry file="file://$PROJECT_DIR$/Demo/PO_V6/PageObjects/index_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -777,9 +803,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commit_study_框架.patch">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/commit_study_框架.patch" />
     <entry file="file://$PROJECT_DIR$/Demo/PO_V6/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -811,32 +835,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestCases/test_login_pytest.py">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/PageObjects/bid_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="133">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/PageLocators/bidPage_locator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestCases/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
           <folding>
-            <element signature="e#100#155#0" expanded="true" />
+            <element signature="e#421#451#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestCases/test_invest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="1235">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="e#801#816#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestCases/conftest.py">
+    <entry file="file://$PROJECT_DIR$/Demo/PO_V6/TestCases/test_login_pytest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="83" column="12" lean-forward="true" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+        <state relative-caret-position="494">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
           <folding>
-            <element signature="e#421#451#0" expanded="true" />
+            <element signature="e#100#155#0" expanded="true" />
           </folding>
         </state>
       </provider>
