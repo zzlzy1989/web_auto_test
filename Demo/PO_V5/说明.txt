@@ -1,0 +1,31 @@
+# 目的：冒烟和回归
+# 200个用例   挑选冒烟用例？  - 50作为冒烟。
+
+# 标签功能  pytest  单元测试框架
+
+# 特点
+pytest：基于unittest之上的单元测试框架。
+1、自动发现测试模块和测试方法；
+2、断言使用assert +表达式即可；
+3、可以设置会话(从运行所有用例开始-用例结束)级、模块(.py)级、类级(setupClass/teardownClass)、函数(测试用例)级的fixtures   数据准备+清理工作
+4、测试用例不一定要放在测试类当中。
+5、有丰富的插件库，目前在300个以上。 = = allure
+
+
+# 用例识别规则
+
+# mark功能 ==
+
+# fixture功能 ==
+  1、定义fixture
+     1.1 创建了一个conftest.py文件
+     1.2 在conftest当，创建fixture
+     1.3 定义函数。函数的前面加上@pytest.fixture(scope=作用域)
+                   函数内部：yield隔开前置和后置的代码。之前是前置，之后是后置
+                             yield 返回值
+  2、调用fixture
+     在测试用例/测试类 前面加上 @pytest.mark.usefixtures("fixture对应的函数名称")
+     fixture对应的函数名称 = 它的返回值
+     fixture对应的函数名称作为测试用例的参数，将返回值传给测试用例。
+
+  3、fixture暂不支持与unittest同用。断言都用assert对吧。

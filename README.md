@@ -98,9 +98,6 @@
             通过对元素ID、name、class属性来查找元素是最为普遍和快捷的方法；
             也可以增加一个测试用例断言元素的可用性：
 
-
-
-
 附件 基础知识
 
     一、元素操作
@@ -280,7 +277,6 @@
                 PageLocators - > PageObjects
                 PageObjects - > TestCases
                 TestDatas - > TestCases
-
                 元素定位层
                 页面对象层
                 测试用例层
@@ -290,83 +286,137 @@
             (5)、应用场景：冒烟-(正常场景，不一定要有断言，能不能用？)
                     回归-(全面覆盖，异常场景(准备工作很多，甚至需要人为干预))。
 
-        4、Pytest
+    (三)、Pytest框架的使用
 
-            1、Pytest介绍
-                基于unittest之上的单元测试框架
-                (1)、自动发现测试模块和测试方法；
-                (2)、断言使用assert+表达式即可;
-                (3)、可以设置会话(从运行所有用例开始-用例结束)级，模块(.py)级，类级(setupClass/teardownClass)，
-                函数(测试用例)级的fixtures，数据准备+清理工作
-                (4)、有丰富的插件，300+以上。==allure
-                (5)、测试用例不一定要放在测试类当中。
+        1、Pytest介绍
+            基于unittest之上的单元测试框架
+            (1)、自动发现测试模块和测试方法；
+            (2)、断言使用assert+表达式即可;
+            (3)、可以设置会话(从运行所有用例开始-用例结束)级，模块(.py)级，类级(setupClass/teardownClass)，
+            函数(测试用例)级的fixtures，数据准备+清理工作
+            (4)、有丰富的插件，300+以上。==allure
+            (5)、测试用例不一定要放在测试类当中。
                 安装命令：pip install pytest
                 安装html报告插件：pip install pytest-html
                 pytest插件地址：http://plugincompat.herokuapp.com/
-                pytest收集测试用例的规则：
-                    (1)、默认从当前目录中收集测试用例，即在哪个目录下运行pytest命令，则从哪个目录当中搜索；
-                    (2)、搜索规则：
-                        a、符合命名规则，test_*.py 或者 *_test.py的文件；
-                        b、以test_开头的函数名；
-                        c、以Test开头的测试类，（没有__init__函数）当中，以test_开头的函数；
-                        d、断言使用基本的assert即可；
-                Pytest的特点：
-                1、简单灵活，容易上手，文档丰富；
-                2、支持参数化，可以细粒度地控制要测试的测试用例；
-                3、能够支持简单的单元测试和复杂的功能测试，还可以用来做selenium/appnium等自动化测试、
-                    接口自动化测试（pytest+requests）;
-                4、pytest具有很多第三方插件，并且可以自定义扩展，比较好用的如pytest-selenium（集成selenium）、
-                    pytest-html（完美html测试报告生成）、pytest-rerunfailures（失败case重复执行）、pytest-xdist（多CPU分发）等；
-                5、测试用例的skip和xfail处理；
-                6、可以很好的和CI工具结合，例如jenkins
+            pytest收集测试用例的规则：
+                (1)、默认从当前目录中收集测试用例，即在哪个目录下运行pytest命令，则从哪个目录当中搜索；
+                (2)、搜索规则：
+                    a、符合命名规则，test_*.py 或者 *_test.py的文件；
+                    b、以test_开头的函数名；
+                    c、以Test开头的测试类，（没有__init__函数）当中，以test_开头的函数；
+                    d、断言使用基本的assert即可；
+            Pytest的特点：
+            1、简单灵活，容易上手，文档丰富；
+            2、支持参数化，可以细粒度地控制要测试的测试用例；
+            3、能够支持简单的单元测试和复杂的功能测试，
+                还可以用来做selenium/appnium等自动化测试、
+                接口自动化测试（pytest+requests）;
+            4、pytest具有很多第三方插件，并且可以自定义扩展，比较好用的如:
+                pytest-selenium（集成selenium）、
+                pytest-html（完美html测试报告生成）、
+                pytest-rerunfailures（失败case重复执行）、
+                pytest-xdist（多CPU分发）等；
+            5、测试用例的skip和xfail处理；
+            6、可以很好的和CI工具结合，例如jenkins
 
-            2、pytest之mark功能
-                (1)、对测试用例打标签，在运行测试用例的时候，可根据标签名来过滤要运行的用例。
-                   使用方法：
-                   在测试用例/测试类前面加上：@pytest.mark.标记名
-                   示例：@pytest.mark.smoke
-                (2)、可在一个用例上打多个标签，多次使用@pytest.mark.标签名即可。
-                   示例：@pytest.mark.smoke
-                        @pytest.mark.demo
-                        def 函数():
-                            print("pytest之mark功能")
+        2、pytest之mark功能
+            mark机制  4.6
+            先注册  pytest.ini  [pytest] markers=标签名:说明
+            去给用例打标签
+                 @pytest.mark.已注册的标签名
 
-            3、pytest之命令运行用例
-                    
-            4、pytest之fixture功能
-                1、定义fixture
-                    1.1 创建了一个conftest.py文件
-                    1.2 在conftest中，创建fixture
-                    1.3 定义函数，函数前面加上@pytest.fixture(scope=作用域)
-                        函数内部：yield 隔开前置后后置的代码，之前是前置，之后是后置
-                                yield 返回值（后面跟上返回值用于调用）
-                2、调用fixture
-                    在测试用例.测试类 前面加上（@pytest.mark.usefixtures("fixture对应的函数名称")）
-                    fixture对应的函数名称=它的返回值
-                    fixture对应的函数名称作为测试用例的参数，将返回值传给测试用例
+                 测试类和模块： 类下面设置类属性值，模块下面设置全局变量。
+                 pytestmarker=pytest.mark.已注册的标签名
+                 多个标签：pytestmarker=[pytest.mark.已注册的标签名,pytest.mark.已注册的标签名]
 
-                3、fixture暂不支持与unittest同用，断言都用assert.
-                4、pytest之fixture参数化-多运行，pytest层级覆盖。测试用例与其同级或者在其子目录
-                5、fixture的scope参数
-                    scope参数有四种，分别是'function','module','class','session'，默认为function。
-                    function：每个test都运行，默认是function的scope
-                    class：每个class的所有test只运行一次
-                    module：每个module的所有test只运行一次
-                    session：每个session只运行一次
-                6、setup和teardown操作
-                    setup，在测试函数或类之前执行，完成准备工作，例如数据库链接、测试数据、打开文件等
-                    teardown，在测试函数或类之后执行，完成收尾工作，例如断开数据库链接、回收内存资源等
-                    备注：也可以通过在fixture函数中通过yield实现setup和teardown功能
+        3、pytest之命令运行用例
 
-            5、pytest之参数化---ddt
+        4、pytest之fixture功能
+            (1)、定义fixture
+                1.1 创建了一个conftest.py文件
+                1.2 在conftest中，创建fixture
+                1.3 定义函数，函数前面加上@pytest.fixture(scope=作用域)
+                    函数内部：yield 隔开前置后后置的代码，之前是前置，之后是后置
+                            yield 返回值（后面跟上返回值用于调用）
+            (2)、调用fixture
+                在测试用例.测试类 前面加上（@pytest.mark.usefixtures("fixture对应的函数名称")）；
+                fixture对应的函数名称=它的返回值；
+                fixture对应的函数名称作为测试用例的参数，将返回值传给测试用例；
+                fixure  在conftest.py当中，定义的时候，就已经决定了他的用例域，决定了它的命运；
+                fixture可以有很多个；
+                无论在测试类、测试用例去主动调用fixture,都不能够改变它的命运；
+                调用就是决定在哪儿去使用它。在哪个测试类？
+                pytest的用例执行顺序：
+                   基本原则：按照搜索规则，先匹配到的先执行。
+                   1、文件名称：按名称名称顺序去搜索。先找到的，先去内部找用例。
+                   2、在py文件内部：按照代码顺序去找用例。先找到的先执行。
+            (3)、fixture暂不支持与unittest同用，断言都用assert.
+            (4)、pytest之fixture参数化-多运行，pytest层级覆盖。测试用例与其同级或者在其子目录
+            (5)、fixture的scope参数
+                scope参数有四种，分别是'function','module','class','session'，默认为function。
+                function：每个test都运行，默认是function的scope
+                class：每个class的所有test只运行一次
+                module：每个module的所有test只运行一次
+                session：每个session只运行一次
+            (6)、setup和teardown操作
+                setup，在测试函数或类之前执行，完成准备工作，例如数据库链接、测试数据、打开文件等
+                teardown，在测试函数或类之后执行，完成收尾工作，例如断开数据库链接、回收内存资源等
+                备注：也可以通过在fixture函数中通过yield实现setup和teardown功能
 
-            6、pytest之重运行
+            (7)、fixture定义与调用
+                定义  == 定命运。session、modle、class、function
+                调用  == 你准备把它在哪儿用？
+                    session:整个会话都有效。
+                    module:模块内有效。
+                    class:类内有效。
+                    function:测试用例内有效。
+                    conftest.py文件。 === 定义多个fixture.
 
-            7、pytest之HTML报告
+        5、pytest之参数化---ddt
+            参数化  ddt   参数名 = 用例的参数名称
+            在测试用例的前面加上：
+            @pytest.mark.parametrize("参数名",列表)
+            参数名：用来接收每一项数据，并作为测试用例的参数；
+            @pytest.mark.parametrize("参数1，参数2",[(数1，数2),(数1，数2)])；
+            排列组合。多个参数的值排列组合。在一个用例前面 ，使用多个@pytest.mark.parametrize
+            示例：用例有4个：0,2/0,3/1,2/1,3
+                @pytest.mark.parametrize("x", [0, 1])
+                @pytest.mark.parametrize("y", [2, 3])
+                def test_foo(x, y):
+                    pass
 
-            8、pytest之allure测试
+        6、pytest之重运行
+            插件名称：rerunfailures
+            安装方法：pip install pytest-rerunfailures（失败case重复执行）
+            使用方式：
+            命令行参数形式：
+            命令：pytest -reruns 重试次数
+            比如：pytest --reruns 2 表示：运行失败的用例可以重新运行两次
+            命令：pytest --reruns 重试次数 --reruns-delay 次数之间设置的延时（单位：秒）
+            Pytest --reruns 2 --reruns-delay 5
+            表示失败的用例可以重新运行2次，第一次和第二次的时间间隔为5秒；
 
-            9、pytest之jenkins持续集成
+        7、pytest之HTML报告
+            测试报告  = junitxml,html,allure
+            1、先装插件
+            2、命令行的参数：
+               --html=相对路径/report.html   # 相对于pytest命令运行时，所在的根目录。
+               --alluredir=相对路径
+            3、安装allure命令行工具：下载，解压，配置环境变量
+            4、生成allure文件之后，用命令：allure serve alluredir
+            os.system("")
+            allure与jenkins的集成、重运行机制、pytest中的失败截图。
+
+            Pytest可以生成多种样式的结果： pytest plugin(下载插件用)
+            1、生成JunitXML格式的测试报告：命令：--junitxml = path
+            2、生成result log格式的测试报告：命令：--resultlog=report、log.txt
+            3、生成Html格式的测试报告：命令：--html=report\test_one_func.html(相对路径)
+                # pytest -v -s -m demo --html=Demo/PO_V6/Outputs/reports/pytest_run_reports.html
+        8、pytest之allure测试（allure测试报告）
+             https://docs.qameta.io/allure/#_pytest
+
+        9、pytest之jenkins持续集成
 
 
 
