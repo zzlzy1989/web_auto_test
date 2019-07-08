@@ -4,7 +4,7 @@
 # Author: 简
 # Time: 2019/6/11
 
-from TestDatas.Comm_Datas import web_index_url
+from Demo.PO_V6.TestDatas.Comm_Datas import web_index_url
 
 # 正常场景
 success_data = {"user":"18684720553","passwd":"python",
