@@ -466,13 +466,77 @@
                         login:login model
             2、测试用例/测试类/测试模块
                 测试用例 ：@pytest.mark.smoke
-                测试类：
-                测试模块：
+                测试类、测试模块：pytest.marker=[pytest.mark.smoke,pytest.mark.login]  (待确认)
+
+        9、pytest命令行
+            1、pytest在哪个目录下面运行，那就是在哪个目录当中去搜索用例
+            2、根据标签过滤用例：-m 标签名
+            3、-s -v 在控制台当中看到更详细的用例运行状态
+
+        10、pytest的测试报告
+            1、xml   ---  跟jenkins集成，就是解读的xml文件
+            2、html  ---  插件：pytest-html      参数：--html=../../(相对pytest的命令执行目录的相对路径 )
+
+        11、conftest.py
+            1、共享前置后置
+            2、不同的包目录当中，可以自己的conftest.py
+            3、定义前置后置
+                @pytest.fixtures(scope=)
+                def func1():
+                      # 前置
+                      yield  [返回值]
+                     # 后置
+
+                要在func1的基础上，有更多的操作
+                @pytest.fixtures(scope=)
+                def func2(func1):
+                      # 前置
+                      yield  [返回值]
+                     # 后置
+
+            4、测试类/测试函数   @pytest.mark.usefixtures("函数名称")
+                如果有返回值，那么把   函数名称    作为测试用例的参数即可。  函数名称 = 返回值。
+
+        12、数据驱动：pytest参数化
+
+            1、@pytest.mark.parametrize("param1",[1,2,3,4])
+                def test_11(param1):
+                    pass
+            2、@pytest.mark.parametrize("param1,param2",[(1,2),(3,4)])
+                def test_11(param1,param2):
+                    pass
+
+            3、@pytest.mark.parametrize("param1",[1,2,3,4])
+                @pytest.mark.parametrize("param2",[a,b])
+                def test_11(param1,param2):  # 两个参数排列组合 ，有8组测试用例。
+                    pass
 
 
+        13、失败重试机制：rerun      插件：pytest-rerun    pytest命令参数：(自行补充)pytest --rerun 5 --reruns-delay 1
+
+        14、pytest-allure报告集成：
+             1、allure命令环境的安装
+             2、pytest - 安装allure插件    命令参数： --alluredir=../..(相对pytest的命令执行目录的相对路径 )
+             3、allure -serve
+             4、jenkins进一步集成：安装jenkins上的allure插件   jenkins-allure-adopter????
 
 
+        15、PageLocator
+            PageObjects
+            TestCases(conftest.py)
+            TestDatas
+            common：basepage、loggger、工程路径配置
+            outputs：日志、截图、报告
+            main.py：框架入口
+            API：接口
 
+        16、自动化运行测试、测试用例组织、测试报告自动生成、测试日志自动生成、失败截图的自动生成 、指定输出路径 、提供入口
+
+            编写规范：团队合作
+            文件命名规范、函数命名规范、通过的英名名称(login、action)
+            元素定位规范：非绝对定位    定期互相检查
+            按模块分层次：事先搭好。
+            良好的注释：
 
 
 
