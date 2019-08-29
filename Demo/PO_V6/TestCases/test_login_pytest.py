@@ -29,6 +29,7 @@ def test_add(a,b,c):
 # 用例三步曲：前置 、步骤 、 断言
 # @ddt.ddt
 # @pytest.mark.login   # 整个TestLogin类里面，所有测试用例都有login标签。
+
 @pytest.mark.usefixtures("open_url")  # 使用函数名称为open_url的fixture
 @pytest.mark.usefixtures("refresh_page")
 class TestLogin:

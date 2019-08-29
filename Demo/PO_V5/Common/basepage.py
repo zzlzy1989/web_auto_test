@@ -4,7 +4,7 @@
 # Author: 简
 # Time: 2019/6/18
 
-from Common import logger
+from Demo.PO_V6.Common import logger
 import logging
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
